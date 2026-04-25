@@ -1,6 +1,5 @@
 name: Discord Changelog
 
-# Si attiva ogni volta che viene fatto un push sul branch main
 on:
   push:
     branches:
@@ -21,107 +20,122 @@ jobs:
         run: |
           set -e
 
-          # ============================================================
-          # STEP 1 — Estrai dati dal commit
-          # ============================================================
-          COMMIT_MSG="${{ github.event.head_commit.message }}"
           COMMIT_AUTHOR="${{ github.event.head_commit.author.name }}"
           COMMIT_URL="${{ github.event.head_commit.url }}"
-
-          # Prima riga del commit (subject)
-          SUBJECT=$(echo "$COMMIT_MSG" | head -n 1)
-
-          # Pulisce prefissi automatici di GitBook tipo "GITBOOK-67:"
-          SUBJECT_CLEAN=$(echo "$SUBJECT" | sed -E 's/^GITBOOK-[0-9]+:\s*//')
+          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          SUBJECT=$(echo "$COMMIT_MSG" | head -n 1 | sed -E 's/^GITBOOK-[0-9]+:\s*//')
 
           # ============================================================
-          # STEP 2 — Recupera i file cambiati nel commit
+          # Funzione: trasforma "2.-attivita-commerciali/legge-2.10.md"
+          # in       "Legge 2.10 (Attivita Commerciali)"
           # ============================================================
-          CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD || true)
-
-          # Formatta ogni file in un nome leggibile in italiano
-          # Es: "2.-attivita-commerciali/legge-2.10.md" -> "Legge 2.10 (Attivita Commerciali)"
-          FORMATTED_FILES=""
-          FILE_COUNT=0
-          while IFS= read -r file; do
-            [ -z "$file" ] && continue
-            [[ "$file" != *.md ]] && continue
-            FILE_COUNT=$((FILE_COUNT + 1))
-
-            # Rimuove estensione .md
-            name="${file%.md}"
-
-            # Estrae cartella e nome file
+          format_path() {
+            local path="$1"
+            local name="${path%.md}"
             if [[ "$name" == *"/"* ]]; then
-              folder="${name%/*}"
-              filename="${name##*/}"
-              # Rimuove prefissi numerici tipo "2.-" o "3.-"
-              folder_clean=$(echo "$folder" | sed -E 's/^[0-9]+\.-//; s/-/ /g')
-              file_clean=$(echo "$filename" | sed -E 's/-/ /g')
-              # Capitalizza la prima lettera di ogni parola (fallback semplice)
-              folder_pretty=$(echo "$folder_clean" | sed -E 's/\b(.)/\u\1/g')
-              file_pretty=$(echo "$file_clean" | sed -E 's/\b(.)/\u\1/g')
-              FORMATTED_FILES="${FORMATTED_FILES}• **${file_pretty}** _(${folder_pretty})_\n"
+              local folder="${name%/*}"
+              local filename="${name##*/}"
+              local folder_clean
+              folder_clean=$(echo "$folder" | sed -E 's|^[0-9]+\.?-?||; s|/[0-9]+\.?-?| / |g; s/-/ /g; s/\b(.)/\u\1/g')
+              local file_clean
+              file_clean=$(echo "$filename" | sed -E 's/-/ /g; s/\b(.)/\u\1/g')
+              echo "**${file_clean}** _(${folder_clean})_"
             else
-              file_clean=$(echo "$name" | sed -E 's/-/ /g; s/\b(.)/\u\1/g')
-              FORMATTED_FILES="${FORMATTED_FILES}• **${file_clean}**\n"
+              echo "**$(echo "$name" | sed -E 's/-/ /g; s/\b(.)/\u\1/g')**"
             fi
-          done <<< "$CHANGED_FILES"
+          }
 
-          # Limita la lista a 5 file (se ce ne sono di più)
-          if [ "$FILE_COUNT" -gt 5 ]; then
-            FORMATTED_FILES=$(echo -e "$FORMATTED_FILES" | head -n 5)
-            FORMATTED_FILES="${FORMATTED_FILES}\n_...e altri $((FILE_COUNT - 5)) file modificati_"
+          # ============================================================
+          # Verifica se un file va filtrato (boilerplate GitBook)
+          # ============================================================
+          is_skipped() {
+            local file="$1"
+            local base
+            base=$(basename "$file")
+            case "$base" in
+              SUMMARY.md|README.md|.gitbook.yaml|.gitignore) return 0 ;;
+            esac
+            [[ "$file" == .* ]] && return 0
+            [[ "$file" != *.md ]] && return 0
+            return 1
+          }
+
+          # ============================================================
+          # Recupera lista file con stato (A=added, M=modified, D=deleted, R=renamed)
+          # ============================================================
+          ADDED_LIST=""
+          MODIFIED_LIST=""
+          DELETED_LIST=""
+          A_COUNT=0; M_COUNT=0; D_COUNT=0
+
+          while IFS=$'\t' read -r status file rest; do
+            [ -z "$file" ] && continue
+            if is_skipped "$file"; then continue; fi
+            pretty=$(format_path "$file")
+            case "$status" in
+              A)
+                ADDED_LIST="${ADDED_LIST}• ${pretty}\n"
+                A_COUNT=$((A_COUNT + 1))
+                ;;
+              M)
+                MODIFIED_LIST="${MODIFIED_LIST}• ${pretty}\n"
+                M_COUNT=$((M_COUNT + 1))
+                ;;
+              D)
+                DELETED_LIST="${DELETED_LIST}• ${pretty}\n"
+                D_COUNT=$((D_COUNT + 1))
+                ;;
+              R*)
+                MODIFIED_LIST="${MODIFIED_LIST}• ${pretty} _(rinominato)_\n"
+                M_COUNT=$((M_COUNT + 1))
+                ;;
+            esac
+          done < <(git diff-tree --no-commit-id --name-status -r HEAD || true)
+
+          TOTAL=$((A_COUNT + M_COUNT + D_COUNT))
+
+          # Se non c'è niente di significativo, non mandare il messaggio
+          if [ "$TOTAL" -eq 0 ]; then
+            echo "Nessun file rilevante modificato, salto la notifica."
+            exit 0
           fi
 
           # ============================================================
-          # STEP 3 — Determina tipo, colore, icona dal subject (o auto)
+          # Determina tipo principale, colore e icona
           # ============================================================
-          COLOR=3447003       # Blu (default)
-          ICON="📜"
-          TYPE="Aggiornamento"
-
-          # Se il subject è generico, prova a inferire dal nome dei file
-          INFER_TEXT="$SUBJECT_CLEAN"
-          if [ "$SUBJECT_CLEAN" = "No subject" ] || [ -z "$SUBJECT_CLEAN" ]; then
-            INFER_TEXT="$CHANGED_FILES"
-          fi
-
-          if echo "$INFER_TEXT" | grep -iE "(aggiunt|nuov|pubblicat|introd|crea)" > /dev/null; then
-            COLOR=3066993     # Verde
-            ICON="🆕"
-            TYPE="Nuova Pubblicazione"
-          elif echo "$INFER_TEXT" | grep -iE "(modifi|aggiorn|edit|emendament|cambia|revis)" > /dev/null; then
-            COLOR=15844367    # Giallo
-            ICON="✏️"
-            TYPE="Modifica"
-          elif echo "$INFER_TEXT" | grep -iE "(abrog|elimin|rimoss|cancellat|rimuov)" > /dev/null; then
-            COLOR=15158332    # Rosso
-            ICON="❌"
-            TYPE="Abrogazione"
-          fi
-
-          # ============================================================
-          # STEP 4 — Costruisci la descrizione finale
-          # ============================================================
-          if [ "$SUBJECT_CLEAN" = "No subject" ] || [ -z "$SUBJECT_CLEAN" ]; then
-            # Niente subject: usa solo la lista file
-            if [ "$FILE_COUNT" -eq 0 ]; then
-              DESCRIPTION="_Aggiornamento generico al codice legislativo_"
-            else
-              DESCRIPTION=$(echo -e "$FORMATTED_FILES")
-            fi
+          if [ "$A_COUNT" -gt 0 ] && [ "$M_COUNT" -eq 0 ] && [ "$D_COUNT" -eq 0 ]; then
+            COLOR=3066993; ICON="🆕"; TYPE="Nuova Pubblicazione"
+          elif [ "$M_COUNT" -gt 0 ] && [ "$A_COUNT" -eq 0 ] && [ "$D_COUNT" -eq 0 ]; then
+            COLOR=15844367; ICON="✏️"; TYPE="Modifica"
+          elif [ "$D_COUNT" -gt 0 ] && [ "$A_COUNT" -eq 0 ] && [ "$M_COUNT" -eq 0 ]; then
+            COLOR=15158332; ICON="❌"; TYPE="Abrogazione"
           else
-            # C'è un subject sensato: mostralo + lista file
-            if [ "$FILE_COUNT" -eq 0 ]; then
-              DESCRIPTION="**${SUBJECT_CLEAN}**"
-            else
-              DESCRIPTION=$(echo -e "**${SUBJECT_CLEAN}**\n\n${FORMATTED_FILES}")
-            fi
+            COLOR=3447003; ICON="📜"; TYPE="Aggiornamento"
           fi
 
           # ============================================================
-          # STEP 5 — Invia a Discord
+          # Costruisci la descrizione a sezioni
+          # ============================================================
+          DESCRIPTION=""
+
+          if [ "$SUBJECT" != "No subject" ] && [ -n "$SUBJECT" ]; then
+            DESCRIPTION="**${SUBJECT}**\n\n"
+          fi
+
+          if [ "$A_COUNT" -gt 0 ]; then
+            DESCRIPTION="${DESCRIPTION}🆕 **Aggiunto:**\n${ADDED_LIST}\n"
+          fi
+          if [ "$M_COUNT" -gt 0 ]; then
+            DESCRIPTION="${DESCRIPTION}✏️ **Modificato:**\n${MODIFIED_LIST}\n"
+          fi
+          if [ "$D_COUNT" -gt 0 ]; then
+            DESCRIPTION="${DESCRIPTION}❌ **Rimosso:**\n${DELETED_LIST}\n"
+          fi
+
+          DESCRIPTION=$(echo -e "$DESCRIPTION")
+
+          # ============================================================
+          # Invia a Discord
           # ============================================================
           PAYLOAD=$(jq -n \
             --arg title "$ICON $TYPE" \
