@@ -8,4 +8,3 @@ Esempio
 
 * esempio
 * esempio
-* esempio
