@@ -1,3 +1,100 @@
+RiccardoRichTV
+riccardorichtv
+🔥 Que me quiten lo bailao!
+
+Leciuk [/GOV],  — ayer a las 18:01
+We
+Leciuk [/GOV],  — ayer a las 18:25
+il numerooo
+Nelson MantelloNelson Mantello [/GOV],  — ayer a las 18:26
+aaaaaaaaaaaaaa
+angelll
+amorrr mij
+RiccardoRichTV [/GOV],  — ayer a las 18:31
+ahahahaha
+a fatt a WL manté?
+Nelson MantelloNelson Mantello [/GOV],  — ayer a las 18:31
+mi ha fatto voglia di farmi la wl
+appena l ho sentitta
+@RiccardoRichTV  domanda
+gli hai detto che voi fare rp da purista?
+RiccardoRichTV [/GOV],  — ayer a las 18:33
+si ma non credo sia cambiata come cosa
+Leciuk [/GOV],  — ayer a las 18:39
+Tipo de archivo adjunto: unknown
+SaltyChat_4.1.0 (1).ts3_plugin
+4.93 MB
+Nelson MantelloNelson Mantello [/GOV],  — ayer a las 21:33
+@Leciuk @RiccardoRichTV
+Siete a cena
+RiccardoRichTV [/GOV],  — ayer a las 21:34
+Imagen
+Nelson MantelloNelson Mantello [/GOV],  — ayer a las 21:35
+Ma è Navarrino
+Asp mo vi chiamo
+RiccardoRichTV [/GOV],  — 11:05
+name: Discord Changelog
+
+# Si attiva ogni volta che viene fatto un push sul branch main
+on:
+  push:
+    branches:
+
+message.txt
+3 KB
+niente, mi serviva un posto dove passarmi sto file
+Buongiorno comunque
+Leciuk [/GOV],  — 12:19
+Buongiorno
+Nelson MantelloNelson Mantello [/GOV],  — 13:16
+Buongiorno
+Leciuk [/GOV],  — 15:05
+Dove state battendo?
+RiccardoRichTV [/GOV],  — 15:15
+Mo sto finendo di mangiare
+C vogliamo fa n'oretta?
+A fatt u pg?
+Leciuk [/GOV],  — 15:19
+sto su redm
+Nelson MantelloNelson Mantello [/GOV],  — 15:22
+ma @Leciuk
+haiu la wl su imp?
+io sto su lemon a trollare
+ [/GOV], 
+RiccardoRichTV [/GOV],  — 15:26
+si
+scrivi a dada fattela mettere
+ [/GOV], 
+Leciuk [/GOV],  — 15:26
+si
+me l'ha fatta dada
+RiccardoRichTV [/GOV],  — 15:27
+@Leciuk  ma cu chi stai?
+jamm a fa nu gir ngopp a impero
+ [/GOV], 
+Nelson MantelloNelson Mantello [/GOV],  — 15:31
+ma quella faz?
+Leciuk [/GOV],  — 15:32
+no
+Nelson MantelloNelson Mantello [/GOV],  — 15:32
+eh ma quella faz
+Leciuk [/GOV],  — 15:36
+ma chi se ne frega
+se pur lo fosse
+non avrei il Job
+RiccardoRichTV [/GOV],  — 15:41
+name: Discord Changelog
+
+# Si attiva ogni volta che viene fatto un push sul branch main
+on:
+  push:
+    branches:
+
+message.txt
+6 KB
+Leciuk [/GOV],  — 15:41
+Imagen
+﻿
 name: Discord Changelog
 
 # Si attiva ogni volta che viene fatto un push sul branch main
@@ -15,50 +112,117 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Send Discord notification
+      - name: Build and send Discord notification
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          # Estrae il messaggio del commit, autore e link
+          set -e
+
+          # ============================================================
+          # STEP 1 — Estrai dati dal commit
+          # ============================================================
           COMMIT_MSG="${{ github.event.head_commit.message }}"
           COMMIT_AUTHOR="${{ github.event.head_commit.author.name }}"
           COMMIT_URL="${{ github.event.head_commit.url }}"
-          REPO_NAME="${{ github.repository }}"
 
-          # Prende solo la prima riga del commit (il "subject")
+          # Prima riga del commit (subject)
           SUBJECT=$(echo "$COMMIT_MSG" | head -n 1)
 
-          # Pulisce eventuali prefissi automatici di GitBook (tipo "GITBOOK-67:")
+          # Pulisce prefissi automatici di GitBook tipo "GITBOOK-67:"
           SUBJECT_CLEAN=$(echo "$SUBJECT" | sed -E 's/^GITBOOK-[0-9]+:\s*//')
 
-          # Se il subject pulito è "No subject", usa un default più carino
-          if [ "$SUBJECT_CLEAN" = "No subject" ] || [ -z "$SUBJECT_CLEAN" ]; then
-            SUBJECT_CLEAN="Aggiornamento generico al codice legislativo"
+          # ============================================================
+          # STEP 2 — Recupera i file cambiati nel commit
+          # ============================================================
+          CHANGED_FILES=$(git diff-tree --no-commit-id --name-only -r HEAD || true)
+
+          # Formatta ogni file in un nome leggibile in italiano
+          # Es: "2.-attivita-commerciali/legge-2.10.md" -> "Legge 2.10 (Attivita Commerciali)"
+          FORMATTED_FILES=""
+          FILE_COUNT=0
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            [[ "$file" != *.md ]] && continue
+            FILE_COUNT=$((FILE_COUNT + 1))
+
+            # Rimuove estensione .md
+            name="${file%.md}"
+
+            # Estrae cartella e nome file
+            if [[ "$name" == *"/"* ]]; then
+              folder="${name%/*}"
+              filename="${name##*/}"
+              # Rimuove prefissi numerici tipo "2.-" o "3.-"
+              folder_clean=$(echo "$folder" | sed -E 's/^[0-9]+\.-//; s/-/ /g')
+              file_clean=$(echo "$filename" | sed -E 's/-/ /g')
+              # Capitalizza la prima lettera di ogni parola (fallback semplice)
+              folder_pretty=$(echo "$folder_clean" | sed -E 's/\b(.)/\u\1/g')
+              file_pretty=$(echo "$file_clean" | sed -E 's/\b(.)/\u\1/g')
+              FORMATTED_FILES="${FORMATTED_FILES}• **${file_pretty}** _(${folder_pretty})_\n"
+            else
+              file_clean=$(echo "$name" | sed -E 's/-/ /g; s/\b(.)/\u\1/g')
+              FORMATTED_FILES="${FORMATTED_FILES}• **${file_clean}**\n"
+            fi
+          done <<< "$CHANGED_FILES"
+
+          # Limita la lista a 5 file (se ce ne sono di più)
+          if [ "$FILE_COUNT" -gt 5 ]; then
+            FORMATTED_FILES=$(echo -e "$FORMATTED_FILES" | head -n 5)
+            FORMATTED_FILES="${FORMATTED_FILES}\n_...e altri $((FILE_COUNT - 5)) file modificati_"
           fi
 
-          # Determina tipo, colore e icona in base alle parole chiave
+          # ============================================================
+          # STEP 3 — Determina tipo, colore, icona dal subject (o auto)
+          # ============================================================
           COLOR=3447003       # Blu (default)
           ICON="📜"
           TYPE="Aggiornamento"
 
-          if echo "$SUBJECT_CLEAN" | grep -iE "(aggiunt|nuov|pubblicat|introd|crea)" > /dev/null; then
+          # Se il subject è generico, prova a inferire dal nome dei file
+          INFER_TEXT="$SUBJECT_CLEAN"
+          if [ "$SUBJECT_CLEAN" = "No subject" ] || [ -z "$SUBJECT_CLEAN" ]; then
+            INFER_TEXT="$CHANGED_FILES"
+          fi
+
+          if echo "$INFER_TEXT" | grep -iE "(aggiunt|nuov|pubblicat|introd|crea)" > /dev/null; then
             COLOR=3066993     # Verde
             ICON="🆕"
             TYPE="Nuova Pubblicazione"
-          elif echo "$SUBJECT_CLEAN" | grep -iE "(modifi|aggiorn|edit|emendament|cambia|revis)" > /dev/null; then
+          elif echo "$INFER_TEXT" | grep -iE "(modifi|aggiorn|edit|emendament|cambia|revis)" > /dev/null; then
             COLOR=15844367    # Giallo
             ICON="✏️"
             TYPE="Modifica"
-          elif echo "$SUBJECT_CLEAN" | grep -iE "(abrog|elimin|rimoss|cancellat|rimuov)" > /dev/null; then
+          elif echo "$INFER_TEXT" | grep -iE "(abrog|elimin|rimoss|cancellat|rimuov)" > /dev/null; then
             COLOR=15158332    # Rosso
             ICON="❌"
             TYPE="Abrogazione"
           fi
 
-          # Costruisce il payload JSON usando jq (sicuro contro caratteri speciali)
+          # ============================================================
+          # STEP 4 — Costruisci la descrizione finale
+          # ============================================================
+          if [ "$SUBJECT_CLEAN" = "No subject" ] || [ -z "$SUBJECT_CLEAN" ]; then
+            # Niente subject: usa solo la lista file
+            if [ "$FILE_COUNT" -eq 0 ]; then
+              DESCRIPTION="_Aggiornamento generico al codice legislativo_"
+            else
+              DESCRIPTION=$(echo -e "$FORMATTED_FILES")
+            fi
+          else
+            # C'è un subject sensato: mostralo + lista file
+            if [ "$FILE_COUNT" -eq 0 ]; then
+              DESCRIPTION="**${SUBJECT_CLEAN}**"
+            else
+              DESCRIPTION=$(echo -e "**${SUBJECT_CLEAN}**\n\n${FORMATTED_FILES}")
+            fi
+          fi
+
+          # ============================================================
+          # STEP 5 — Invia a Discord
+          # ============================================================
           PAYLOAD=$(jq -n \
             --arg title "$ICON $TYPE" \
-            --arg desc "**$SUBJECT_CLEAN**" \
+            --arg desc "$DESCRIPTION" \
             --arg url "$COMMIT_URL" \
             --arg author "$COMMIT_AUTHOR" \
             --arg footer "Codice Legislativo • Governo Enveart RP" \
@@ -76,6 +240,7 @@ jobs:
               }]
             }')
 
-          # Invia a Discord
           curl -X POST -H "Content-Type: application/json" \
             -d "$PAYLOAD" "$DISCORD_WEBHOOK"
+message.txt
+6 KB
