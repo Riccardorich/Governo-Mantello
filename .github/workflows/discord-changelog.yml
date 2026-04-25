@@ -1,0 +1,81 @@
+name: Discord Changelog
+
+# Si attiva ogni volta che viene fatto un push sul branch main
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Send Discord notification
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: |
+          # Estrae il messaggio del commit, autore e link
+          COMMIT_MSG="${{ github.event.head_commit.message }}"
+          COMMIT_AUTHOR="${{ github.event.head_commit.author.name }}"
+          COMMIT_URL="${{ github.event.head_commit.url }}"
+          REPO_NAME="${{ github.repository }}"
+
+          # Prende solo la prima riga del commit (il "subject")
+          SUBJECT=$(echo "$COMMIT_MSG" | head -n 1)
+
+          # Pulisce eventuali prefissi automatici di GitBook (tipo "GITBOOK-67:")
+          SUBJECT_CLEAN=$(echo "$SUBJECT" | sed -E 's/^GITBOOK-[0-9]+:\s*//')
+
+          # Se il subject pulito è "No subject", usa un default più carino
+          if [ "$SUBJECT_CLEAN" = "No subject" ] || [ -z "$SUBJECT_CLEAN" ]; then
+            SUBJECT_CLEAN="Aggiornamento generico al codice legislativo"
+          fi
+
+          # Determina tipo, colore e icona in base alle parole chiave
+          COLOR=3447003       # Blu (default)
+          ICON="📜"
+          TYPE="Aggiornamento"
+
+          if echo "$SUBJECT_CLEAN" | grep -iE "(aggiunt|nuov|pubblicat|introd|crea)" > /dev/null; then
+            COLOR=3066993     # Verde
+            ICON="🆕"
+            TYPE="Nuova Pubblicazione"
+          elif echo "$SUBJECT_CLEAN" | grep -iE "(modifi|aggiorn|edit|emendament|cambia|revis)" > /dev/null; then
+            COLOR=15844367    # Giallo
+            ICON="✏️"
+            TYPE="Modifica"
+          elif echo "$SUBJECT_CLEAN" | grep -iE "(abrog|elimin|rimoss|cancellat|rimuov)" > /dev/null; then
+            COLOR=15158332    # Rosso
+            ICON="❌"
+            TYPE="Abrogazione"
+          fi
+
+          # Costruisce il payload JSON usando jq (sicuro contro caratteri speciali)
+          PAYLOAD=$(jq -n \
+            --arg title "$ICON $TYPE" \
+            --arg desc "**$SUBJECT_CLEAN**" \
+            --arg url "$COMMIT_URL" \
+            --arg author "$COMMIT_AUTHOR" \
+            --arg footer "Codice Legislativo • Governo Enveart RP" \
+            --argjson color "$COLOR" \
+            '{
+              username: "Gazzetta Ufficiale",
+              embeds: [{
+                title: $title,
+                description: $desc,
+                color: $color,
+                url: $url,
+                author: { name: $author },
+                footer: { text: $footer },
+                timestamp: now | todate
+              }]
+            }')
+
+          # Invia a Discord
+          curl -X POST -H "Content-Type: application/json" \
+            -d "$PAYLOAD" "$DISCORD_WEBHOOK"
