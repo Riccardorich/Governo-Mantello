@@ -23,7 +23,7 @@
   * [Legge 2.11](2.-attivita-commerciali/legge-2.11.md)
   * [Legge 2.12](2.-attivita-commerciali/legge-2.12.md)
   * [Legge 2.13](2.-attivita-commerciali/legge-2.13.md)
-  * [Legge Test](2.-attivita-commerciali/legge-test.md)
+  * [Legge 2.14](2.-attivita-commerciali/legge-2.14.md)
 * [📒 3. Riforme](3.-riforme/README.md)
   * [Riforma 3.1](3.-riforme/riforma-3.1.md)
   * [Riforma 3.2](3.-riforme/riforma-3.2.md)
