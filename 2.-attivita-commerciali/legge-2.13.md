@@ -31,7 +31,7 @@ Il rilievo fotografico deve documentare lo stato del mezzo e le condizioni che g
 * Governo
 * Servizi EMS (emergenza sanitaria)
 
-L’intervento in tali aree è consentito esclusivamente su richiesta diretta delle FDO.\
+L’intervento in tali aree è consentito esclusivamente su richiesta diretta delle FDO.\
 In assenza di autorizzazione o chiamata ufficiale, qualsiasi rimozione è da considerarsi non autorizzata.
 
 ***
@@ -71,7 +71,7 @@ Qualsiasi segnalazione che accerti ingerenze o mancanze nell’operatività del 
 
 #### Art. 7 – Tariffario del servizio
 
-Il prezzo fisso per ogni intervento di rimozione forzata è stabilito in 10.000 $.
+* Il prezzo fisso per ogni intervento di rimozione forzata è stabilito in 10.000 $ qualora il veicolo non sia stato già trasportato in deposito e 15.000$ qualora il veicolo si trovi già sequestrato in deposito.
 
 ***
 
