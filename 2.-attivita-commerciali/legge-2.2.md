@@ -1,9 +1,8 @@
 ---
-description: REGOLAMENTO ANTINCENDIO
 icon: fire-extinguisher
 ---
 
-# Legge 2.2
+# Legge 2.2 | Antincendio
 
 #### **Art. 1 – Finalità**
 

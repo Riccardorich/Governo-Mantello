@@ -1,9 +1,8 @@
 ---
-description: CERTIFICATO SECURITY PER LE ATTIVITÀ COMMERCIALI
 icon: shield-halved
 ---
 
-# Legge 2.4
+# Legge 2.4 | Certificato Security
 
 **Art. 1 – Oggetto della Legge**
 

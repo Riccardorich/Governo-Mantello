@@ -1,15 +1,12 @@
 ---
-description: Regolamentazione Censimento Dipendenti
 icon: user-check
 ---
 
-# Legge 2.7
+# Legge 2.7 | Censimento
 
 Costo per ogni dipendente dichiarato: 7.500$
 
 Il censimento dei dipendenti è obbligatorio per tutte le attività registrate e ha lo scopo di mantenere aggiornato il registro del personale impiegato all’interno delle attività presenti sul territorio.
-
-
 
 ***
 
@@ -58,5 +55,3 @@ Sono esenti dal pagamento:
 
 * I titolari dell’attività
 * I tirocinanti
-
-&#x20;

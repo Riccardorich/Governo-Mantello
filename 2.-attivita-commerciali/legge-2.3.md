@@ -1,11 +1,8 @@
 ---
-description: PROPRIETÀ DELLE ATTIVITÀ COMMERCIALI
 icon: shop-lock
 ---
 
-# Legge 2.3
-
-
+# Legge 2.3 | Proprietà Locali
 
 **Art. 1 – Oggetto della Legge**
 

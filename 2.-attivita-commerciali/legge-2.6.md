@@ -1,14 +1,11 @@
 ---
-description: Regolamento sull’Utilizzo delle Fascette da Parte del Personale di Security
 icon: lasso-sparkles
 ---
 
-# Legge 2.6
+# Legge 2.6 | Fascette Security
 
 La presente normativa disciplina l’uso delle fascette contenitive da parte del personale di sicurezza privata operante all’interno di locali, eventi o aree private soggette a controllo.\
 L’obiettivo della legge è garantire la sicurezza dei cittadini, la tutela degli operatori e il rispetto dei diritti fondamentali delle persone coinvolte, assicurando che ogni intervento avvenga in modo proporzionato, professionale e documentato.
-
-
 
 ***
 
@@ -85,5 +82,3 @@ L’amministrazione della città di Los Santos si riserva il diritto di applicar
 * sospensione del modulo security dell’attività per un periodo compreso tra 3 e 5 giorni;
 * riattivazione del servizio previa autorizzazione governativa con costo amministrativo pari a 40.000$;
 * nei casi più gravi o in presenza di abusi reiterati, sospensione del modulo security a tempo indeterminato.
-
-&#x20;
