@@ -25,7 +25,7 @@
   * [Legge 2.13 | Rimozone Forzata](2.-attivita-commerciali/legge-2.13.md)
 * [📒 3. Riforme](3.-riforme/README.md)
   * [Riforma 3.1](3.-riforme/riforma-3.1.md)
-  * [Riforma 3.2](3.-riforme/riforma-3.2.md)
+  * [Riforma 3.2 | PDA](3.-riforme/riforma-3.2.md)
 * [⚖️ 4. Codice Penale](4.-codice-penale.md)
 * [------------------------------](undefined-1.md)
 * [📑 Protocolli Giuridici](protocolli-giuridici/README.md)

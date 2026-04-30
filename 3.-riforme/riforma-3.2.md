@@ -3,11 +3,9 @@ description: RIFORMA STATALE PER IL CONSEGUIMENTO DEL PORTO D'ARMI (PDA)
 icon: gun
 ---
 
-# Riforma 3.2
+# Riforma 3.2 | PDA
 
 Il Porto d'Armi è un privilegio concesso dallo Stato, non un diritto automatico. La procedura si articola in tre fasi obbligatorie e propedeutiche. Il mancato superamento di una fase preclude l'accesso alla successiva.
-
-
 
 #### FASE 1: CERTIFICAZIONE MEDICA E PSICOATTITUDINALE
 
@@ -38,4 +36,4 @@ COSTO TOTALE: $100.000
 
 \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
 
-#### NB. Qualunque uso improprio di un arma da fuoco o lo svolgimendo di attività illegali, porterà portare IMMEDIATAMENTE al suo ritiro.
+#### NB. Qualunque uso improprio di un arma da fuoco o lo svolgimendo di attività illegali, porterà portare IMMEDIATAMENTE al suo ritiro, senza eccezioni.
