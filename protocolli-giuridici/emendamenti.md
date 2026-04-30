@@ -6,8 +6,6 @@ icon: scale-balanced
 
 Gli emendamenti rappresentano i principi fondamentali a tutela dei diritti, delle garanzie e dell’equilibrio tra accusa e difesa. Essi definiscono i limiti dell’azione dello Stato e assicurano che ogni procedimento si svolga nel rispetto della legalità, dell’imparzialità e della dignità della persona. Attraverso tali disposizioni, viene garantita una giustizia equa, trasparente e conforme ai valori costituzionali.
 
-
-
 * **Emendamento 1**\
   Il Governo di Los Santos non potrà emanare leggi per il riconoscimento di una religione o per proibire il libero culto, né per limitare la libertà di parola, di stampa o il diritto dei cittadini di riunirsi pacificamente e di inviare petizioni al governo.\
   L’esercizio di tali libertà non può comunque essere usato per finalità violente, discriminatorie o contrarie all’ordine pubblico e alla sicurezza collettiva.<br>
@@ -35,4 +33,4 @@ Gli emendamenti rappresentano i principi fondamentali a tutela dei diritti, dell
 * **Emendamento 9**\
   L’interpretazione di alcuni diritti previsti dalla Costituzione non potrà avvenire in modo tale da negare o disconoscere altri diritti goduti dai cittadini.<br>
 * **Emendamento 10**\
-  Chiunque è innocente fino a prova contraria. Le uniche prove accettate per incriminare un cittadino sono prove video. Testimonianze verbali o scritte dei cittadini potranno essere solo utilizzate come rafforzativo e come aggiunta, ma non potranno mai sostituire una prova video. Si esclude l’Art. 1.1 Raggiungimento di 6 Reati di Classe A.
+  Chiunque è innocente fino a prova contraria. Le uniche prove accettate per incriminare un cittadino sono prove video. Testimonianze verbali o scritte dei cittadini potranno essere solo utilizzate come rafforzativo e come aggiunta, ma non potranno mai sostituire una prova video. Si esclude l’Art. 1.1 Raggiungimento di 5 Reati di Classe A.
