@@ -5,6 +5,10 @@ on:
     branches:
       - main
 
+env:
+  # URL pubblico del sito GitBook (cambialo qui se rinomini lo space)
+  GITBOOK_URL: "https://governo-rp.gitbook.io/untitled"
+
 jobs:
   notify:
     runs-on: ubuntu-latest
@@ -14,148 +18,172 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Build and send Discord notification
+      - name: Build Discord payload
+        env:
+          GITBOOK_URL: ${{ env.GITBOOK_URL }}
+          COMMIT_AUTHOR: ${{ github.event.head_commit.author.name }}
+          COMMIT_SUBJECT: ${{ github.event.head_commit.message }}
+        run: |
+          python3 <<'PYEOF' > payload.json
+          import subprocess, json, re, os, sys
+          from datetime import datetime, timezone
+
+          GITBOOK_URL = os.environ.get("GITBOOK_URL", "").rstrip("/")
+          author = os.environ.get("COMMIT_AUTHOR", "Sconosciuto")
+          raw_subject = os.environ.get("COMMIT_SUBJECT", "").splitlines()[0] if os.environ.get("COMMIT_SUBJECT") else ""
+          subject = re.sub(r"^GITBOOK-\d+:\s*", "", raw_subject).strip()
+
+          SKIP_FILES = {"SUMMARY.md", "README.md", ".gitbook.yaml", ".gitignore"}
+
+          # ----------------------------------------------------------------
+          # 1) Recupera la lista file con stato Git (A/M/D/R)
+          # ----------------------------------------------------------------
+          diff_out = subprocess.run(
+              ["git", "diff-tree", "--no-commit-id", "--name-status", "-r", "HEAD"],
+              capture_output=True, text=True
+          ).stdout
+
+          added, modified, deleted = [], [], []
+          for line in diff_out.splitlines():
+              parts = line.split("\t")
+              if len(parts) < 2: continue
+              status, f = parts[0], parts[1]
+              if not f.endswith(".md"): continue
+              if os.path.basename(f) in SKIP_FILES: continue
+              if f.startswith("."): continue
+              if status.startswith("A"): added.append(f)
+              elif status.startswith("M"): modified.append(f)
+              elif status.startswith("D"): deleted.append(f)
+              elif status.startswith("R"):
+                  modified.append(parts[2] if len(parts) > 2 else f)
+
+          if not (added or modified or deleted):
+              print(json.dumps({"skip": True}))
+              sys.exit(0)
+
+          # ----------------------------------------------------------------
+          # 2) Helper: trasforma path file in nome leggibile + URL GitBook
+          # ----------------------------------------------------------------
+          def prettify(s):
+              # rimuove prefissi "1.-", "2.-", ecc. e mette spazi al posto dei trattini
+              s = re.sub(r"^[0-9]+\.?-?", "", s)
+              s = s.replace("-", " ").replace("_", " ")
+              # capitalizza prima lettera di ogni parola
+              return " ".join(w.capitalize() for w in s.split())
+
+          def format_path(path):
+              clean = path[:-3] if path.endswith(".md") else path
+              parts = clean.split("/")
+              if len(parts) > 1:
+                  filename = parts[-1]
+                  folder = " / ".join(prettify(p) for p in parts[:-1])
+                  pretty = f"{prettify(filename)} _({folder})_"
+              else:
+                  pretty = prettify(clean)
+              url = f"{GITBOOK_URL}/{clean}"
+              return pretty, url
+
+          # ----------------------------------------------------------------
+          # 3) Helper: trova quali ## Art. X sono stati modificati nel file
+          # ----------------------------------------------------------------
+          def get_changed_sections(file):
+              try:
+                  diff = subprocess.run(
+                      ["git", "diff", "HEAD~1", "HEAD", "--unified=0", "--", file],
+                      capture_output=True, text=True
+                  ).stdout
+                  content = subprocess.run(
+                      ["git", "show", f"HEAD:{file}"],
+                      capture_output=True, text=True
+                  ).stdout
+              except Exception:
+                  return []
+
+              # Mappa: numero_riga -> header più vicino sopra
+              section_map, current = {}, None
+              for i, line in enumerate(content.split("\n"), start=1):
+                  m = re.match(r"^#{1,4}\s+(.+?)\s*$", line)
+                  if m:
+                      current = m.group(1).strip()
+                  section_map[i] = current
+
+              sections = []
+              for hunk in re.finditer(r"@@\s+-\d+(?:,\d+)?\s+\+(\d+)(?:,(\d+))?\s+@@", diff):
+                  start = int(hunk.group(1))
+                  count = int(hunk.group(2) or 1)
+                  if count == 0: continue
+                  for ln in range(start, start + count + 1):
+                      sec = section_map.get(ln)
+                      if sec and sec not in sections:
+                          sections.append(sec)
+              return sections
+
+          # ----------------------------------------------------------------
+          # 4) Costruisci la descrizione a sezioni
+          # ----------------------------------------------------------------
+          lines = []
+          if subject and subject.lower() != "no subject":
+              lines.append(f"**{subject}**\n")
+
+          def add_section(emoji, label, files, with_sections=False):
+              if not files: return
+              lines.append(f"{emoji} **{label}:**")
+              for f in files:
+                  pretty, url = format_path(f)
+                  lines.append(f"• [{pretty}]({url})")
+                  if with_sections:
+                      secs = get_changed_sections(f)
+                      for s in secs[:3]:
+                          lines.append(f"   ↳ _{s}_")
+                      if len(secs) > 3:
+                          lines.append(f"   ↳ _...e altri {len(secs)-3} paragrafi_")
+              lines.append("")
+
+          add_section("🆕", "Aggiunto", added, with_sections=False)
+          add_section("✏️", "Modificato", modified, with_sections=True)
+          add_section("❌", "Rimosso", deleted, with_sections=False)
+
+          description = "\n".join(lines).strip()
+          if len(description) > 4000:
+              description = description[:3990] + "\n_..._"
+
+          # ----------------------------------------------------------------
+          # 5) Tipo / colore / icona principali
+          # ----------------------------------------------------------------
+          if added and not modified and not deleted:
+              color, icon, type_name = 3066993, "🆕", "Nuova Pubblicazione"
+          elif modified and not added and not deleted:
+              color, icon, type_name = 15844367, "✏️", "Modifica"
+          elif deleted and not added and not modified:
+              color, icon, type_name = 15158332, "❌", "Abrogazione"
+          else:
+              color, icon, type_name = 3447003, "📜", "Aggiornamento"
+
+          # ----------------------------------------------------------------
+          # 6) Payload finale
+          # ----------------------------------------------------------------
+          payload = {
+              "username": "Gazzetta Ufficiale",
+              "embeds": [{
+                  "title": f"{icon} {type_name}",
+                  "url": GITBOOK_URL,
+                  "description": description,
+                  "color": color,
+                  "author": {"name": author},
+                  "footer": {"text": "Codice Legislativo • Governo Enveart RP"},
+                  "timestamp": datetime.now(timezone.utc).isoformat()
+              }]
+          }
+          print(json.dumps(payload))
+          PYEOF
+
+      - name: Send to Discord
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: |
-          set -e
-
-          COMMIT_AUTHOR="${{ github.event.head_commit.author.name }}"
-          COMMIT_URL="${{ github.event.head_commit.url }}"
-          COMMIT_MSG="${{ github.event.head_commit.message }}"
-          SUBJECT=$(echo "$COMMIT_MSG" | head -n 1 | sed -E 's/^GITBOOK-[0-9]+:\s*//')
-
-          # ============================================================
-          # Funzione: trasforma "2.-attivita-commerciali/legge-2.10.md"
-          # in       "Legge 2.10 (Attivita Commerciali)"
-          # ============================================================
-          format_path() {
-            local path="$1"
-            local name="${path%.md}"
-            if [[ "$name" == *"/"* ]]; then
-              local folder="${name%/*}"
-              local filename="${name##*/}"
-              local folder_clean
-              folder_clean=$(echo "$folder" | sed -E 's|^[0-9]+\.?-?||; s|/[0-9]+\.?-?| / |g; s/-/ /g; s/\b(.)/\u\1/g')
-              local file_clean
-              file_clean=$(echo "$filename" | sed -E 's/-/ /g; s/\b(.)/\u\1/g')
-              echo "**${file_clean}** _(${folder_clean})_"
-            else
-              echo "**$(echo "$name" | sed -E 's/-/ /g; s/\b(.)/\u\1/g')**"
-            fi
-          }
-
-          # ============================================================
-          # Verifica se un file va filtrato (boilerplate GitBook)
-          # ============================================================
-          is_skipped() {
-            local file="$1"
-            local base
-            base=$(basename "$file")
-            case "$base" in
-              SUMMARY.md|README.md|.gitbook.yaml|.gitignore) return 0 ;;
-            esac
-            [[ "$file" == .* ]] && return 0
-            [[ "$file" != *.md ]] && return 0
-            return 1
-          }
-
-          # ============================================================
-          # Recupera lista file con stato (A=added, M=modified, D=deleted, R=renamed)
-          # ============================================================
-          ADDED_LIST=""
-          MODIFIED_LIST=""
-          DELETED_LIST=""
-          A_COUNT=0; M_COUNT=0; D_COUNT=0
-
-          while IFS=$'\t' read -r status file rest; do
-            [ -z "$file" ] && continue
-            if is_skipped "$file"; then continue; fi
-            pretty=$(format_path "$file")
-            case "$status" in
-              A)
-                ADDED_LIST="${ADDED_LIST}• ${pretty}\n"
-                A_COUNT=$((A_COUNT + 1))
-                ;;
-              M)
-                MODIFIED_LIST="${MODIFIED_LIST}• ${pretty}\n"
-                M_COUNT=$((M_COUNT + 1))
-                ;;
-              D)
-                DELETED_LIST="${DELETED_LIST}• ${pretty}\n"
-                D_COUNT=$((D_COUNT + 1))
-                ;;
-              R*)
-                MODIFIED_LIST="${MODIFIED_LIST}• ${pretty} _(rinominato)_\n"
-                M_COUNT=$((M_COUNT + 1))
-                ;;
-            esac
-          done < <(git diff-tree --no-commit-id --name-status -r HEAD || true)
-
-          TOTAL=$((A_COUNT + M_COUNT + D_COUNT))
-
-          # Se non c'è niente di significativo, non mandare il messaggio
-          if [ "$TOTAL" -eq 0 ]; then
-            echo "Nessun file rilevante modificato, salto la notifica."
+          if jq -e '.skip' payload.json > /dev/null 2>&1; then
+            echo "Nessun file rilevante, skip notifica"
             exit 0
           fi
-
-          # ============================================================
-          # Determina tipo principale, colore e icona
-          # ============================================================
-          if [ "$A_COUNT" -gt 0 ] && [ "$M_COUNT" -eq 0 ] && [ "$D_COUNT" -eq 0 ]; then
-            COLOR=3066993; ICON="🆕"; TYPE="Nuova Pubblicazione"
-          elif [ "$M_COUNT" -gt 0 ] && [ "$A_COUNT" -eq 0 ] && [ "$D_COUNT" -eq 0 ]; then
-            COLOR=15844367; ICON="✏️"; TYPE="Modifica"
-          elif [ "$D_COUNT" -gt 0 ] && [ "$A_COUNT" -eq 0 ] && [ "$M_COUNT" -eq 0 ]; then
-            COLOR=15158332; ICON="❌"; TYPE="Abrogazione"
-          else
-            COLOR=3447003; ICON="📜"; TYPE="Aggiornamento"
-          fi
-
-          # ============================================================
-          # Costruisci la descrizione a sezioni
-          # ============================================================
-          DESCRIPTION=""
-
-          if [ "$SUBJECT" != "No subject" ] && [ -n "$SUBJECT" ]; then
-            DESCRIPTION="**${SUBJECT}**\n\n"
-          fi
-
-          if [ "$A_COUNT" -gt 0 ]; then
-            DESCRIPTION="${DESCRIPTION}🆕 **Aggiunto:**\n${ADDED_LIST}\n"
-          fi
-          if [ "$M_COUNT" -gt 0 ]; then
-            DESCRIPTION="${DESCRIPTION}✏️ **Modificato:**\n${MODIFIED_LIST}\n"
-          fi
-          if [ "$D_COUNT" -gt 0 ]; then
-            DESCRIPTION="${DESCRIPTION}❌ **Rimosso:**\n${DELETED_LIST}\n"
-          fi
-
-          DESCRIPTION=$(echo -e "$DESCRIPTION")
-
-          # ============================================================
-          # Invia a Discord
-          # ============================================================
-          PAYLOAD=$(jq -n \
-            --arg title "$ICON $TYPE" \
-            --arg desc "$DESCRIPTION" \
-            --arg url "$COMMIT_URL" \
-            --arg author "$COMMIT_AUTHOR" \
-            --arg footer "Codice Legislativo • Governo Enveart RP" \
-            --argjson color "$COLOR" \
-            '{
-              username: "Gazzetta Ufficiale",
-              embeds: [{
-                title: $title,
-                description: $desc,
-                color: $color,
-                url: $url,
-                author: { name: $author },
-                footer: { text: $footer },
-                timestamp: now | todate
-              }]
-            }')
-
           curl -X POST -H "Content-Type: application/json" \
-            -d "$PAYLOAD" "$DISCORD_WEBHOOK"
+            -d @payload.json "$DISCORD_WEBHOOK"
