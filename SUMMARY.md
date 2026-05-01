@@ -23,6 +23,7 @@
   * [Legge 2.11 | Tasse](2.-attivita-commerciali/legge-2.11.md)
   * [Legge 2.12 | Riforma Burocrazia](2.-attivita-commerciali/legge-2.12.md)
   * [Legge 2.13 | Rimozone Forzata](2.-attivita-commerciali/legge-2.13.md)
+  * [Legge 2.14 | Veicoli e Proprietà](2.-attivita-commerciali/legge-2.14-or-veicoli-e-proprieta.md)
 * [📒 3. Riforme](3.-riforme/README.md)
   * [Riforma 3.1](3.-riforme/riforma-3.1.md)
   * [Riforma 3.2 | PDA](3.-riforme/riforma-3.2.md)
