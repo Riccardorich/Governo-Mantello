@@ -1,10 +1,8 @@
----
-icon: scale-balanced
----
-
-# Emendamenti
+# 📑 Emendamenti
 
 Gli emendamenti rappresentano i principi fondamentali a tutela dei diritti, delle garanzie e dell’equilibrio tra accusa e difesa. Essi definiscono i limiti dell’azione dello Stato e assicurano che ogni procedimento si svolga nel rispetto della legalità, dell’imparzialità e della dignità della persona. Attraverso tali disposizioni, viene garantita una giustizia equa, trasparente e conforme ai valori costituzionali.
+
+
 
 * **Emendamento 1**\
   Il Governo di Los Santos non potrà emanare leggi per il riconoscimento di una religione o per proibire il libero culto, né per limitare la libertà di parola, di stampa o il diritto dei cittadini di riunirsi pacificamente e di inviare petizioni al governo.\
