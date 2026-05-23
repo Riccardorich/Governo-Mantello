@@ -9,17 +9,15 @@ La presente legge disciplina l’organizzazione e lo svolgimento delle manifesta
 
 Le manifestazioni rappresentano uno strumento legittimo di partecipazione civica e di espressione delle opinioni. Tuttavia, per garantire che tali eventi si svolgano in maniera ordinata e sicura, è necessario che ogni iniziativa sia previamente comunicata e autorizzata dalle autorità competenti.
 
-
-
 ***
 
 **Art. 1 – Obbligo di Autorizzazione**
 
-Tutte le manifestazioni, proteste, cortei, sit-in o raduni di carattere pubblico, sociale o politico organizzati nel territorio di Los Santos devono essere preventivamente autorizzati dal Governo cittadino.
+Tutte le manifestazioni, proteste, cortei, sit-in o raduni di natura pubblica, sociale o politica organizzati nel territorio di Los Santos devono essere preventivamente notificati al Governo cittadino.
 
-È pertanto vietato organizzare, promuovere o partecipare a manifestazioni prive di regolare autorizzazione, secondo quanto stabilito dalle disposizioni della presente legge.
+Si vieta pertanto di organizzare, promuovere o partecipare a eventi non regolarmente comunicati, in conformità con quanto previsto dalla presente normativa.
 
-Tale obbligo è finalizzato a consentire alle autorità di predisporre le necessarie misure di sicurezza e garantire il corretto svolgimento dell’evento.
+Tale obbligo ha lo scopo di consentire alle autorità competenti di predisporre adeguate misure di sicurezza e di garantire il corretto e ordinato svolgimento delle attività.
 
 ***
 
