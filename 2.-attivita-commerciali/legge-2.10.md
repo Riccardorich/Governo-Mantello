@@ -3,7 +3,7 @@ description: Prezzi Minimi e Massimi Imposti
 icon: money-bills
 ---
 
-# Legge 2.10
+# Legge 2.10 | Prezzi Min/Max
 
 ### Art. 1 – Principio Generale
 
@@ -16,16 +16,12 @@ I prezzi stabiliti dalla presente normativa sono obbligatori e vincolanti per tu
 
 È severamente vietato:
 
-* Omaggiare prodotti&#x20;
-* Offrire sconti&#x20;
-* Effettuare donazioni&#x20;
-* Fornire servizi o beni aggiuntivi non inclusi nel prezzo&#x20;
-
-
+* Omaggiare prodotti
+* Offrire sconti
+* Effettuare donazioni
+* Fornire servizi o beni aggiuntivi non inclusi nel prezzo
 
 Qualsiasi prestazione deve rispettare esclusivamente il prezzo imposto.
-
-
 
 ***
 
@@ -38,7 +34,7 @@ Ogni esercente deve attenersi al listino senza eccezioni.
 
 ### Art. 4 – Obbligo di Listino
 
-* Se un prodotto o servizio non è presente nel listino, NON può essere venduto.&#x20;
+* Se un prodotto o servizio non è presente nel listino, NON può essere venduto.
 * È responsabilità dell’attività attenersi esclusivamente agli articoli autorizzati.
 
 ***
@@ -47,8 +43,8 @@ Ogni esercente deve attenersi al listino senza eccezioni.
 
 I prezzi sono interpretati come segue:
 
-* **Min:** minimo (convenzioni)&#x20;
-* **Medio:** prezzo convenzionale di vendita&#x20;
+* **Min:** minimo (convenzioni)
+* **Medio:** prezzo convenzionale di vendita
 * **Max:** massimo prezzo di vendita eccezionale
 * **FDO:** prezzo riservato alle FDO
 
@@ -56,34 +52,28 @@ I prezzi sono interpretati come segue:
 
 ### Art. 6 – Controlli
 
-I controlli sul rispetto della presente legge sono affidati a:&#x20;
+I controlli sul rispetto della presente legge sono affidati a:
 
-* Forze dell’Ordine (FDO)&#x20;
-* Organi governativi competenti&#x20;
-* Eventuali ispettori autorizzati&#x20;
+* Forze dell’Ordine (FDO)
+* Organi governativi competenti
+* Eventuali ispettori autorizzati
 
+I controlli possono avvenire:
 
-
-I controlli possono avvenire:&#x20;
-
-* In modo casuale&#x20;
+* In modo casuale
 * Su segnalazione
-* Tramite operazioni sotto copertura&#x20;
+* Tramite operazioni sotto copertura
 
-
-
-Gli esercenti sono obbligati a:&#x20;
+Gli esercenti sono obbligati a:
 
 * Mostrare il listino prezzi aggiornato
 * Fornire prove di vendita (ricevute, registri, ecc.)
-* Collaborare con le autorità&#x20;
-
-
+* Collaborare con le autorità
 
 È consentito alle autorità effettuare:
 
-* Verifiche sui prezzi applicati&#x20;
-* Controlli su eventuali accordi illeciti&#x20;
+* Verifiche sui prezzi applicati
+* Controlli su eventuali accordi illeciti
 * Acquisti simulati per verifica
 
 ***
@@ -92,10 +82,10 @@ Gli esercenti sono obbligati a:&#x20;
 
 Costituiscono violazione della legge:
 
-* Applicare prezzi diversi da quelli stabiliti&#x20;
-* Effettuare sconti o omaggi&#x20;
-* Vendere prodotti non presenti nel listino&#x20;
-* Alterare o nascondere il listino prezzi&#x20;
+* Applicare prezzi diversi da quelli stabiliti
+* Effettuare sconti o omaggi
+* Vendere prodotti non presenti nel listino
+* Alterare o nascondere il listino prezzi
 * Rifiutare un controllo o ostacolare le autorità
 
 ***
@@ -108,40 +98,38 @@ Le violazioni sono punite come segue:
 
 (es. errore di prezzo minimo non significativo)
 
-* Multa da 5.000$ a 10.000$&#x20;
-* Richiamo ufficiale&#x20;
-
-
+* Multa da 5.000$ a 10.000$
+* Richiamo ufficiale
 
 **Violazioni gravi**
 
 (es. prezzi alterati, sconti, omaggi)
 
-* Multa da 10.000$ a 30.000$&#x20;
-* Possibile sospensione dell’attività fino a 48 ore&#x20;
+* Multa da 10.000$ a 30.000$
+* Possibile sospensione dell’attività fino a 48 ore
 
 **Violazioni molto gravi**
 
 (es. vendita fuori listino, recidiva, frode)
 
-* Multa da 30.000$ a 80.000$&#x20;
-* Chiusura temporanea attività fino a 7 giorni&#x20;
-* Possibile revoca della licenza&#x20;
+* Multa da 30.000$ a 80.000$
+* Chiusura temporanea attività fino a 7 giorni
+* Possibile revoca della licenza
 
 **Violazioni estreme**
 
 (es. sistema organizzato per aggirare la legge)
 
-* Multa superiore a 100.000$&#x20;
-* Chiusura definitiva dell’attività&#x20;
+* Multa superiore a 100.000$
+* Chiusura definitiva dell’attività
 * Eventuali ulteriori provvedimenti legali
 
 ***
 
 ### Art. 9 – Recidiva
 
-* Alla seconda violazione, le sanzioni sono aumentate del 50%&#x20;
-* Dalla terza violazione, è prevista la revoca automatica della licenza commerciale&#x20;
+* Alla seconda violazione, le sanzioni sono aumentate del 50%
+* Dalla terza violazione, è prevista la revoca automatica della licenza commerciale
 
 ***
 
@@ -151,8 +139,6 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ## TABELLE RIEPILOGATIVA PREZZI
 
-
-
 ### ATTIVITÀ FOOD
 
 <table><thead><tr><th width="225">Articolo</th><th>Min</th><th>Medio</th><th>Max</th><th width="127">Prezzo Min FDO</th></tr></thead><tbody><tr><td>Cibo</td><td>//</td><td>300 $</td><td>//</td><td>200 $</td></tr><tr><td>Bevande</td><td>//</td><td>300 $</td><td>//</td><td>200 $</td></tr><tr><td>Accendino</td><td>//</td><td>300 $</td><td>//</td><td>250 $</td></tr><tr><td>Sigarette</td><td>//</td><td>350 $</td><td>//</td><td>300 $</td></tr><tr><td>Sigari</td><td>//</td><td>400 $</td><td>//</td><td>350 $</td></tr><tr><td>Canne</td><td>//</td><td>450 $</td><td>//</td><td>400 $</td></tr><tr><td>Gratta e Vinci Classico</td><td></td><td>250 $</td><td></td><td></td></tr><tr><td>Gratta e Vinci Premium</td><td></td><td>550 $</td><td></td><td></td></tr><tr><td>Gratta e Vinci Vip</td><td></td><td>1.100 $</td><td></td><td></td></tr></tbody></table>
@@ -161,9 +147,11 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### MECCANICI
 
-<table><thead><tr><th>Articolo</th><th width="188">Min</th><th>Medio</th><th>Prezzo Max FDO</th><th data-hidden>Max</th></tr></thead><tbody><tr><td>Controller luci</td><td>//</td><td>4.000 $</td><td>-</td><td>//</td></tr><tr><td>Componenti meccanici *</td><td>//</td><td>4.000 $</td><td>-</td><td>//</td></tr><tr><td>Kit fumo/ruote</td><td>//</td><td>4.000 $</td><td>-</td><td>//</td></tr><tr><td>Kit extra</td><td>//</td><td>4.000 $</td><td>-</td><td>//</td></tr><tr><td>Kit distanziale</td><td>//</td><td>5.000 $</td><td>-</td><td>//</td></tr><tr><td>Kit verniciatura</td><td>//</td><td>5.000 $</td><td>-</td><td>//</td></tr><tr><td>Kit riparazione</td><td>//</td><td>-</td><td>3.500 $</td><td>//</td></tr><tr><td>Kit di pulizia</td><td>//</td><td>-</td><td>3.500 $</td><td>//</td></tr><tr><td>Riparazione in sede</td><td>//</td><td>3.500 $</td><td>-</td><td>//</td></tr><tr><td>Riparazione fuori sede</td><td>//</td><td>5.000 $</td><td>-</td><td>//</td></tr><tr><td>Pulizia in sede</td><td>//</td><td>3.500 $</td><td>-</td><td>//</td></tr><tr><td>Verniciatura chamaleon</td><td>//</td><td>5.000 $</td><td>-</td><td>//</td></tr><tr><td>Fullkit</td><td>//</td><td>prezzo imposto<br>(vedere tabella auto)</td><td>-</td><td>//</td></tr></tbody></table>
+<table><thead><tr><th>Articolo</th><th width="188">Min</th><th>Medio</th><th>Prezzo Max FDO</th><th>Prezzo Max Negozietti</th><th data-hidden>Max</th></tr></thead><tbody><tr><td>Controller luci</td><td>//</td><td>4.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Componenti meccanici *</td><td>//</td><td>4.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Kit fumo/ruote</td><td>//</td><td>4.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Kit extra</td><td>//</td><td>4.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Kit distanziale</td><td>//</td><td>5.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Kit verniciatura</td><td>//</td><td>5.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Kit riparazione</td><td>//</td><td>-</td><td>3.500 $</td><td>5.000 $ **</td><td>//</td></tr><tr><td>Kit di pulizia</td><td>//</td><td>-</td><td>3.500 $</td><td></td><td>//</td></tr><tr><td>Riparazione in sede</td><td>//</td><td>3.500 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Riparazione fuori sede</td><td>//</td><td>5.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Pulizia in sede</td><td>//</td><td>3.500 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Verniciatura chamaleon</td><td>//</td><td>5.000 $</td><td>-</td><td></td><td>//</td></tr><tr><td>Fullkit</td><td>//</td><td>prezzo imposto<br>(vedere tabella auto)</td><td>-</td><td></td><td>//</td></tr></tbody></table>
 
-`*Le modifiche alle parti meccaniche singole, possono avvenire solo a fullkit già installato.`
+`* Le modifiche alle parti meccaniche singole, possono avvenire solo a fullkit già installato.`
+
+`** Il prezzo di acquisto per i negozietti è imposto a 5.000 $ per ogni singolo KIT già pronto con un massimo di 5 KIT al giorno (Con sconto da applicare del 15% = 4.250 $).`
 
 ***
 
@@ -173,13 +161,13 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### IMPORT
 
-<table><thead><tr><th>Categoria</th><th width="243">Articolo</th><th>Prezzo</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Food</td><td>Kit cibo</td><td>150 $</td><td> </td><td> </td></tr><tr><td>Food</td><td>Kit drink</td><td>150 $</td><td> </td><td> </td></tr><tr><td>Meccanici</td><td>Rottame meccanico</td><td>100 $</td><td> </td><td> </td></tr><tr><td>Meccanici</td><td>Tablet meccanico</td><td>500 $</td><td> </td><td> </td></tr><tr><td>Meccanici</td><td>Estrazione carburante</td><td>3.000 $</td><td> </td><td> </td></tr><tr><td>Meccanici</td><td>Pulisci vetri</td><td>1.000 $</td><td> </td><td> </td></tr><tr><td>Meccanici</td><td>Manuale veicoli</td><td>500 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Pezzo arma</td><td>9.000 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Impugnatura arma</td><td>2.500 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Caricatore arma</td><td>2.500 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Lama</td><td>500 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Manico</td><td>500 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Acciaio</td><td>50 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Polvere da sparo</td><td>150 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Ferro</td><td>1.300 $</td><td> </td><td> </td></tr><tr><td>Armerie</td><td>Plastica</td><td>400 $</td><td> </td><td> </td></tr><tr><td>Tabaccheria</td><td>Cartina</td><td>10 $</td><td> </td><td> </td></tr><tr><td>Negozietti</td><td>Cartina</td><td>10 $</td><td> </td><td> </td></tr><tr><td>Negozietti</td><td>Bodycam commerciale</td><td>500 $</td><td> </td><td> </td></tr><tr><td>Negozietti</td><td>Telefono</td><td>825 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Radio</td><td>1.100 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Minimappa</td><td>1.375 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Boombox</td><td>1.650 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Corda</td><td>138 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Sacco</td><td>660 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Fascette</td><td>825 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Forbici</td><td>1.375 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Borsone Vestiti</td><td>1.100 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Carte Uno</td><td>275 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Zaino</td><td>2.750 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Borsone Medio</td><td>8.250 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Borsone Grande</td><td>19.250 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Benda</td><td>50 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Medikit</td><td>250 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Borsa medica</td><td>800 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Morfina 30mg</td><td>300 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Morfina 15mg</td><td>150 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Percocet 30mg</td><td>300 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Percocet 10mg</td><td>100 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Percocet 5mg</td><td>50 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Vicodin 10mg</td><td>150 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Vicodin 5mg</td><td>70 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Test gravidanza</td><td>80 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Plan B</td><td>200 $</td><td> </td><td> </td></tr><tr><td>EMS</td><td>Preservativo</td><td>30 $</td><td> </td><td> </td></tr><tr><td>FDO</td><td>Police Tablet</td><td>1.000 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Bodycam</td><td>500 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Megaphone</td><td>600 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Impronta Digitale</td><td>500 $</td><td></td><td></td></tr><tr><td>Governo</td><td>Bodycam Dotazione Gov.</td><td>500 $ (Provvisorio)</td><td></td><td></td></tr><tr><td>Governo | EMS | FDO</td><td>Radio</td><td>2.000 $</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th>Categoria</th><th width="243">Articolo</th><th>Prezzo</th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td>Food</td><td>Kit cibo</td><td>150 $</td><td></td><td></td></tr><tr><td>Food</td><td>Kit drink</td><td>150 $</td><td></td><td></td></tr><tr><td>Meccanici</td><td>Rottame meccanico</td><td>100 $</td><td></td><td></td></tr><tr><td>Meccanici</td><td>Tablet meccanico</td><td>500 $</td><td></td><td></td></tr><tr><td>Meccanici</td><td>Estrazione carburante</td><td>3.000 $</td><td></td><td></td></tr><tr><td>Meccanici</td><td>Pulisci vetri</td><td>1.000 $</td><td></td><td></td></tr><tr><td>Meccanici</td><td>Manuale veicoli</td><td>500 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Pezzo arma</td><td>9.000 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Impugnatura arma</td><td>2.500 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Caricatore arma</td><td>2.500 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Lama</td><td>500 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Manico</td><td>500 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Acciaio</td><td>50 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Polvere da sparo</td><td>150 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Ferro</td><td>1.300 $</td><td></td><td></td></tr><tr><td>Armerie</td><td>Plastica</td><td>400 $</td><td></td><td></td></tr><tr><td>Tabaccheria</td><td>Cartina</td><td>10 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Cartina</td><td>10 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Bodycam commerciale</td><td>500 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Telefono</td><td>825 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Radio</td><td>1.100 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Minimappa</td><td>1.375 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Boombox</td><td>1.650 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Corda</td><td>138 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Sacco</td><td>660 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Fascette</td><td>825 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Forbici</td><td>1.375 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Borsone Vestiti</td><td>1.100 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Carte Uno</td><td>275 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Zaino</td><td>2.750 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Borsone Medio</td><td>8.250 $</td><td></td><td></td></tr><tr><td>Negozietti</td><td>Borsone Grande</td><td>19.250 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Benda</td><td>50 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Medikit</td><td>250 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Borsa medica</td><td>800 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Morfina 30mg</td><td>300 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Morfina 15mg</td><td>150 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Percocet 30mg</td><td>300 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Percocet 10mg</td><td>100 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Percocet 5mg</td><td>50 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Vicodin 10mg</td><td>150 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Vicodin 5mg</td><td>70 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Test gravidanza</td><td>80 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Plan B</td><td>200 $</td><td></td><td></td></tr><tr><td>EMS</td><td>Preservativo</td><td>30 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Police Tablet</td><td>1.000 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Bodycam</td><td>500 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Megaphone</td><td>600 $</td><td></td><td></td></tr><tr><td>FDO</td><td>Impronta Digitale</td><td>500 $</td><td></td><td></td></tr><tr><td>Governo</td><td>Bodycam Dotazione Gov.</td><td>500 $ (Provvisorio)</td><td></td><td></td></tr><tr><td>Governo | EMS | FDO</td><td>Radio</td><td>2.000 $</td><td></td><td></td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></tbody></table>
 
 ***
 
 ### TABACCHERIA
 
-<table><thead><tr><th width="249">Articolo</th><th width="110">Min</th><th>Medio</th><th width="101">Max</th><th>FDO</th></tr></thead><tbody><tr><td>Accendino</td><td>//</td><td>250 $</td><td>//</td><td>150 $ </td></tr><tr><td>Sigaretta</td><td>//</td><td>300 $</td><td>//</td><td>200 $</td></tr><tr><td>Sigaro</td><td>//</td><td>350 $</td><td>//</td><td>250 $ </td></tr><tr><td>Canna</td><td>//</td><td>400 $</td><td>//</td><td>300 $</td></tr><tr><td>Gratta e Vinci Classico*</td><td>//</td><td>200 $</td><td>//</td><td>//</td></tr><tr><td>Gratta e Vinci Premium**</td><td>//</td><td>500 $</td><td>//</td><td>//</td></tr><tr><td>Gratta e Vinci Vip***</td><td>//</td><td>1.000 $</td><td>//</td><td>//</td></tr></tbody></table>
+<table><thead><tr><th width="249">Articolo</th><th width="110">Min</th><th>Medio</th><th width="101">Max</th><th>FDO</th></tr></thead><tbody><tr><td>Accendino</td><td>//</td><td>250 $</td><td>//</td><td>150 $</td></tr><tr><td>Sigaretta</td><td>//</td><td>300 $</td><td>//</td><td>200 $</td></tr><tr><td>Sigaro</td><td>//</td><td>350 $</td><td>//</td><td>250 $</td></tr><tr><td>Canna</td><td>//</td><td>400 $</td><td>//</td><td>300 $</td></tr><tr><td>Gratta e Vinci Classico*</td><td>//</td><td>200 $</td><td>//</td><td>//</td></tr><tr><td>Gratta e Vinci Premium**</td><td>//</td><td>500 $</td><td>//</td><td>//</td></tr><tr><td>Gratta e Vinci Vip***</td><td>//</td><td>1.000 $</td><td>//</td><td>//</td></tr></tbody></table>
 
 `* Solo confezioni da MIN 100 PEZZI e solo per convenzioni con LOCALI FOOD: 150 $`
 
@@ -191,9 +179,7 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### NEGOZIETTI
 
-<table data-header-hidden><thead><tr><th width="226"></th><th></th><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td>Articolo</td><td>Min</td><td>Medio</td><td>Max</td><td> </td></tr><tr><td>Accendino</td><td>400 $</td><td>500 $</td><td>600 $</td><td> </td></tr><tr><td>cibo</td><td>600 $</td><td>800 $</td><td>1.000 $</td><td> </td></tr><tr><td>drink</td><td>600 $</td><td>800 $</td><td>1.000 $</td><td> </td></tr><tr><td>Kit riparazione</td><td>7.000 $</td><td>8.000 $</td><td>9.000 $</td><td> </td></tr><tr><td>Kit pulizia</td><td>7.000 $</td><td>8.000 $</td><td>9.000 $</td><td> </td></tr><tr><td>Cartina</td><td>50 $</td><td>60 $</td><td>70 $</td><td> </td></tr><tr><td>Mazza da baseball</td><td>8.000 $</td><td>9.000 $</td><td>10.000 $</td><td> </td></tr><tr><td>Benda</td><td>500 $</td><td>600 $</td><td>700 $</td><td> </td></tr><tr><td>Test gravidanza</td><td>800 $</td><td>900 $</td><td>1000 $</td><td> </td></tr><tr><td>Preservativo</td><td>800 $</td><td>900 $</td><td>1000 $</td><td> </td></tr><tr><td>Bodycam commerciale</td><td>2.500 $</td><td>3.500 $</td><td>4.500 $</td><td> </td></tr><tr><td>Zaino</td><td>7.000 $</td><td>8.000 $</td><td>9.000 $</td><td> </td></tr><tr><td>Borsone medio</td><td>18.000 $</td><td>20.000 $</td><td>22.000 $</td><td> </td></tr><tr><td>Borsone grande</td><td>40.000 $</td><td>45.000 $</td><td>50.000 $</td><td> </td></tr><tr><td>Borsone vestiti</td><td>3.000 $</td><td>4.000 $</td><td>5.000 $</td><td> </td></tr><tr><td>Corda</td><td>500 $</td><td>800 $</td><td>1.000 $</td><td> </td></tr><tr><td>Sacchetto</td><td>1.500 $</td><td>1.800 $</td><td>2.300 $</td><td> </td></tr><tr><td>Fascette</td><td>2.000 $</td><td>2.500 $</td><td>3.000 $</td><td> </td></tr><tr><td>Forbici</td><td>3.000 $</td><td>3.500 $</td><td>4.000 $</td><td> </td></tr><tr><td> Phone</td><td>2.000 $ </td><td>2.500 $</td><td>3.000 $</td><td> </td></tr><tr><td>Radio</td><td>2.500 $</td><td>3.000 $</td><td>3.500 $</td><td><br></td></tr><tr><td>Enveart Mini Map</td><td>3.000 $</td><td>3.500 $</td><td>4.000 $</td><td><br></td></tr><tr><td>Boombox</td><td>3.500 $</td><td>4.000 $</td><td>4.500 $</td><td><br></td></tr><tr><td>Borraccia Portatile</td><td>175 $</td><td>275 $</td><td>375 $</td><td></td></tr><tr><td>Cibo Per Animali</td><td>150 $</td><td>250 $</td><td>350 $</td><td></td></tr><tr><td>Kit di Primo Soccorso Per Animali</td><td>250 $</td><td>350 $</td><td>450 $</td><td></td></tr><tr><td>Medaglietta con Nome</td><td>350 $</td><td>450 $</td><td>550 $</td><td></td></tr><tr><td>Kit di Toelettatura</td><td>400 $</td><td>500 $</td><td>600 $</td><td></td></tr><tr><td>Collare per Animali</td><td>300 $</td><td>400 $</td><td>500 $</td><td></td></tr><tr><td>FIltro Acqua Bronzo</td><td>2.000 $</td><td>2.500 $</td><td>3.000 $</td><td></td></tr><tr><td>Filtro Acqua Argento</td><td>4.500 $</td><td>6.500 $</td><td>6.500 $</td><td></td></tr><tr><td>FIltro Acqua Oro</td><td>10.000 $</td><td>12.000 $</td><td>14.000 $</td><td></td></tr><tr><td>Fusibile Bronzo</td><td>1.000 $</td><td>1.500 $</td><td>2.000 $</td><td></td></tr><tr><td>Fusibile Argento</td><td>3.500 $</td><td>4.500 $</td><td>6.500 $</td><td></td></tr><tr><td>Fusibile Oro</td><td>7.500 $</td><td>8.000 $</td><td>10.500 $</td><td></td></tr><tr><td>Miscelatore Bronzo</td><td>1.000 $</td><td>1.500 $</td><td>2.000 $</td><td></td></tr><tr><td>Miscelatore Argento</td><td>3.500 $</td><td>4.500 $</td><td>6.500 $</td><td></td></tr><tr><td>Miscelatore Oro</td><td>7.500 $</td><td>8.000 $</td><td>10.500 $</td><td></td></tr><tr><td>Serbatoio D'acqua</td><td>1.000 $</td><td>1.500 $</td><td>2.000 $</td><td></td></tr><tr><td>Tubo Dell'Acqua</td><td>1.500 $</td><td>1.600 $</td><td>1.700 $</td><td></td></tr><tr><td>Seme di Pomodoro</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Cipolla</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Carota</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Fungo</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Marijuana</td><td>160 $</td><td>180 $</td><td>200 $</td><td></td></tr><tr><td>Gratta e Vinci Classico</td><td>300 $</td><td>400 $</td><td>500 $</td><td></td></tr><tr><td>Gratta e Vinci Premium</td><td>700 $</td><td>800 $</td><td>900 $</td><td></td></tr><tr><td>Gratta e Vinci Vip</td><td>1.300 $</td><td>1.400 $</td><td>1.500 $</td><td></td></tr></tbody></table>
-
-
+<table data-header-hidden><thead><tr><th width="226"></th><th></th><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td>Articolo</td><td>Min</td><td>Medio</td><td>Max</td><td></td></tr><tr><td>Accendino</td><td>400 $</td><td>500 $</td><td>600 $</td><td></td></tr><tr><td>cibo</td><td>600 $</td><td>800 $</td><td>1.000 $</td><td></td></tr><tr><td>drink</td><td>600 $</td><td>800 $</td><td>1.000 $</td><td></td></tr><tr><td>Kit riparazione *</td><td>7.000 $</td><td>8.000 $</td><td>9.000 $</td><td></td></tr><tr><td>Kit pulizia</td><td>7.000 $</td><td>8.000 $</td><td>9.000 $</td><td></td></tr><tr><td>Cartina</td><td>50 $</td><td>60 $</td><td>70 $</td><td></td></tr><tr><td>Mazza da baseball</td><td>8.000 $</td><td>9.000 $</td><td>10.000 $</td><td></td></tr><tr><td>Benda</td><td>500 $</td><td>600 $</td><td>700 $</td><td></td></tr><tr><td>Test gravidanza</td><td>800 $</td><td>900 $</td><td>1000 $</td><td></td></tr><tr><td>Preservativo</td><td>800 $</td><td>900 $</td><td>1000 $</td><td></td></tr><tr><td>Bodycam commerciale</td><td>2.500 $</td><td>3.500 $</td><td>4.500 $</td><td></td></tr><tr><td>Zaino</td><td>7.000 $</td><td>8.000 $</td><td>9.000 $</td><td></td></tr><tr><td>Borsone medio</td><td>18.000 $</td><td>20.000 $</td><td>22.000 $</td><td></td></tr><tr><td>Borsone grande</td><td>40.000 $</td><td>45.000 $</td><td>50.000 $</td><td></td></tr><tr><td>Borsone vestiti</td><td>3.000 $</td><td>4.000 $</td><td>5.000 $</td><td></td></tr><tr><td>Corda</td><td>500 $</td><td>800 $</td><td>1.000 $</td><td></td></tr><tr><td>Sacchetto</td><td>1.500 $</td><td>1.800 $</td><td>2.300 $</td><td></td></tr><tr><td>Fascette</td><td>2.000 $</td><td>2.500 $</td><td>3.000 $</td><td></td></tr><tr><td>Forbici</td><td>3.000 $</td><td>3.500 $</td><td>4.000 $</td><td></td></tr><tr><td>Phone</td><td>2.000 $</td><td>2.500 $</td><td>3.000 $</td><td></td></tr><tr><td>Radio</td><td>2.500 $</td><td>3.000 $</td><td>3.500 $</td><td><br></td></tr><tr><td>Enveart Mini Map</td><td>3.000 $</td><td>3.500 $</td><td>4.000 $</td><td><br></td></tr><tr><td>Boombox</td><td>3.500 $</td><td>4.000 $</td><td>4.500 $</td><td><br></td></tr><tr><td>Borraccia Portatile</td><td>175 $</td><td>275 $</td><td>375 $</td><td></td></tr><tr><td>Cibo Per Animali</td><td>150 $</td><td>250 $</td><td>350 $</td><td></td></tr><tr><td>Kit di Primo Soccorso Per Animali</td><td>250 $</td><td>350 $</td><td>450 $</td><td></td></tr><tr><td>Medaglietta con Nome</td><td>350 $</td><td>450 $</td><td>550 $</td><td></td></tr><tr><td>Kit di Toelettatura</td><td>400 $</td><td>500 $</td><td>600 $</td><td></td></tr><tr><td>Collare per Animali</td><td>300 $</td><td>400 $</td><td>500 $</td><td></td></tr><tr><td>FIltro Acqua Bronzo</td><td>2.000 $</td><td>2.500 $</td><td>3.000 $</td><td></td></tr><tr><td>Filtro Acqua Argento</td><td>4.500 $</td><td>6.500 $</td><td>6.500 $</td><td></td></tr><tr><td>FIltro Acqua Oro</td><td>10.000 $</td><td>12.000 $</td><td>14.000 $</td><td></td></tr><tr><td>Fusibile Bronzo</td><td>1.000 $</td><td>1.500 $</td><td>2.000 $</td><td></td></tr><tr><td>Fusibile Argento</td><td>3.500 $</td><td>4.500 $</td><td>6.500 $</td><td></td></tr><tr><td>Fusibile Oro</td><td>7.500 $</td><td>8.000 $</td><td>10.500 $</td><td></td></tr><tr><td>Miscelatore Bronzo</td><td>1.000 $</td><td>1.500 $</td><td>2.000 $</td><td></td></tr><tr><td>Miscelatore Argento</td><td>3.500 $</td><td>4.500 $</td><td>6.500 $</td><td></td></tr><tr><td>Miscelatore Oro</td><td>7.500 $</td><td>8.000 $</td><td>10.500 $</td><td></td></tr><tr><td>Serbatoio D'acqua</td><td>1.000 $</td><td>1.500 $</td><td>2.000 $</td><td></td></tr><tr><td>Tubo Dell'Acqua</td><td>1.500 $</td><td>1.600 $</td><td>1.700 $</td><td></td></tr><tr><td>Seme di Pomodoro</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Cipolla</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Carota</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Fungo</td><td>30 $</td><td>35 $</td><td>40 $</td><td></td></tr><tr><td>Seme di Marijuana</td><td>160 $</td><td>180 $</td><td>200 $</td><td></td></tr><tr><td>Gratta e Vinci Classico</td><td>300 $</td><td>400 $</td><td>500 $</td><td></td></tr><tr><td>Gratta e Vinci Premium</td><td>700 $</td><td>800 $</td><td>900 $</td><td></td></tr><tr><td>Gratta e Vinci Vip</td><td>1.300 $</td><td>1.400 $</td><td>1.500 $</td><td></td></tr></tbody></table>
 
 ***
 
@@ -201,7 +187,7 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 | Articolo           | Min  | Max   | Prezzo Consigliato |
 | ------------------ | ---- | ----- | ------------------ |
-| Diesel             | 25 $ | 100 $ | 60  $              |
+| Diesel             | 25 $ | 100 $ | 60 $               |
 | Benzina            | 25   | 100 $ | 60 $               |
 | Ricarica Elettrica |      |       |                    |
 
@@ -209,19 +195,19 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### EMS (Servizi)
 
-<table data-header-hidden><thead><tr><th></th><th></th><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Servizio</strong></td><td><strong>Prezzo</strong></td><td><strong>Min FDO</strong></td><td><br></td><td><br></td></tr><tr><td>Sala Tac</td><td>10.000 $</td><td> </td><td><br></td><td> </td></tr><tr><td>Sala Raggi</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Cardiologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Neurologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Ortopedica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Ginecologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Pediatrica</td><td>5.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Pneumologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Seduta con Psicologo (15 Min.)</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td> Esami del Sangue</td><td>5.000 $ </td><td> </td><td> </td><td> </td></tr><tr><td>Esami delle Urine</td><td>5.000 $ </td><td><br></td><td><br></td><td><br></td></tr><tr><td>Esame della Prostata</td><td>5.000 $ </td><td><br></td><td><br></td><td><br></td></tr><tr><td>Parto</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Rianimazione in Città</td><td>3.000 $</td><td>1.500 $</td><td><br></td><td><br></td></tr><tr><td>Rianimazione fuori Città</td><td>5.000 $ </td><td>1.500 $</td><td><br></td><td><br></td></tr><tr><td>Cura (Cerotto)</td><td>1.500 $</td><td>500 $</td><td><br></td><td><br></td></tr><tr><td>Bende</td><td>150 $</td><td>100 $</td><td><br></td><td><br></td></tr><tr><td>Test di Gravidanza</td><td>600 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Pillola Del Giorno Dopo (anticoncezionale)</td><td>600 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Preservativo</td><td>600 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Primo Certificato Pda</td><td>25.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Rinnovo Mensile Pda</td><td>12.500 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Primo Certificato PdT</td><td>12.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Rinnovo Mensile PdT</td><td>6.000 $</td><td><br></td><td><br></td><td><br></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th></th><th></th><th data-hidden></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Servizio</strong></td><td><strong>Prezzo</strong></td><td><strong>Min FDO</strong></td><td><br></td><td><br></td></tr><tr><td>Sala Tac</td><td>10.000 $</td><td></td><td><br></td><td></td></tr><tr><td>Sala Raggi</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Cardiologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Neurologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Ortopedica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Ginecologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Pediatrica</td><td>5.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Visita Pneumologica</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Seduta con Psicologo (15 Min.)</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Esami del Sangue</td><td>5.000 $</td><td></td><td></td><td></td></tr><tr><td>Esami delle Urine</td><td>5.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Esame della Prostata</td><td>5.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Parto</td><td>10.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Rianimazione in Città</td><td>3.000 $</td><td>1.500 $</td><td><br></td><td><br></td></tr><tr><td>Rianimazione fuori Città</td><td>5.000 $</td><td>1.500 $</td><td><br></td><td><br></td></tr><tr><td>Cura (Cerotto)</td><td>1.500 $</td><td>500 $</td><td><br></td><td><br></td></tr><tr><td>Bende</td><td>150 $</td><td>100 $</td><td><br></td><td><br></td></tr><tr><td>Test di Gravidanza</td><td>600 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Pillola Del Giorno Dopo (anticoncezionale)</td><td>600 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Preservativo</td><td>600 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Primo Certificato Pda</td><td>25.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Rinnovo Mensile Pda</td><td>12.500 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Primo Certificato PdT</td><td>12.000 $</td><td><br></td><td><br></td><td><br></td></tr><tr><td>Rinnovo Mensile PdT</td><td>6.000 $</td><td><br></td><td><br></td><td><br></td></tr></tbody></table>
 
 ***
 
 ### MOTEL
 
-<table data-header-hidden><thead><tr><th width="278">Servizio</th><th width="135">Min</th><th>Medio</th><th>Max</th><th data-hidden></th></tr></thead><tbody><tr><td>Affitto giornaliero 1° piano</td><td>10.000 $</td><td>15.000 $</td><td>20.000 $</td><td> </td></tr><tr><td>Affitto giornaliero 2°-3° piano</td><td>5.000 $</td><td>10.000 $</td><td>15.000 $</td><td><br></td></tr><tr><td>Affitto settimanale 1° piano</td><td>50.000 $</td><td>75.000 $</td><td>10.0000 $</td><td><br></td></tr><tr><td>Affitto settimanale 2°-3° piano</td><td>25.000 $</td><td>50.000 $</td><td>75.000 $</td><td><br></td></tr><tr><td>Affitto mensile 1° piano</td><td>180.000 $</td><td>270.000 $</td><td>360.000 $</td><td><br></td></tr><tr><td>Affitto mensile 2°-3° piano</td><td>90.000 $</td><td>180.000 $</td><td>270.000 $</td><td><br></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="278">Servizio</th><th width="135">Min</th><th>Medio</th><th>Max</th><th data-hidden></th></tr></thead><tbody><tr><td>Affitto giornaliero 1° piano</td><td>10.000 $</td><td>15.000 $</td><td>20.000 $</td><td></td></tr><tr><td>Affitto giornaliero 2°-3° piano</td><td>5.000 $</td><td>10.000 $</td><td>15.000 $</td><td><br></td></tr><tr><td>Affitto settimanale 1° piano</td><td>50.000 $</td><td>75.000 $</td><td>10.0000 $</td><td><br></td></tr><tr><td>Affitto settimanale 2°-3° piano</td><td>25.000 $</td><td>50.000 $</td><td>75.000 $</td><td><br></td></tr><tr><td>Affitto mensile 1° piano</td><td>180.000 $</td><td>270.000 $</td><td>360.000 $</td><td><br></td></tr><tr><td>Affitto mensile 2°-3° piano</td><td>90.000 $</td><td>180.000 $</td><td>270.000 $</td><td><br></td></tr></tbody></table>
 
 ***
 
 ### AUTO USATE
 
-<table><thead><tr><th>Veicolo</th><th>Min</th><th>Medio</th><th>Max</th><th data-hidden></th></tr></thead><tbody><tr><td>//</td><td>libero</td><td>libero</td><td>libero</td><td> </td></tr></tbody></table>
+<table><thead><tr><th>Veicolo</th><th>Min</th><th>Medio</th><th>Max</th><th data-hidden></th></tr></thead><tbody><tr><td>//</td><td>libero</td><td>libero</td><td>libero</td><td></td></tr></tbody></table>
 
 ***
 
