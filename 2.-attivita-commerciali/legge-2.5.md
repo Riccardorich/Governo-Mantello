@@ -3,11 +3,9 @@ description: Regolamentazione Eventi Pubblici e Agenzie di Eventi
 icon: party-horn
 ---
 
-# Legge 2.5
+# Legge 2.5 | Eventi Pubblici
 
 La presente normativa disciplina l’organizzazione di eventi pubblici e privati sul territorio cittadino, al fine di garantire ordine, sicurezza pubblica e corretto svolgimento delle attività di intrattenimento all’interno del server RP.
-
-
 
 ***
 
@@ -75,4 +73,6 @@ In tal caso verranno applicate le seguenti misure:
 
 La presente legge ha lo scopo di garantire che ogni evento avvenga in modo organizzato, sicuro e nel rispetto delle normative cittadine, favorendo al contempo l’intrattenimento e la collaborazione tra cittadini, attività commerciali e istituzioni.
 
-&#x20;
+***
+
+Si invita la gentile cittadinanza a consultare integralmente la [Riforma 3.3](../3.-riforme/riforma-3.3-or-tutela-intrattenimento.md) per approfondire le direttive vigenti sulla gestione della concorrenza commerciale.
