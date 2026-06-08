@@ -45,7 +45,13 @@ I provvedimenti richiedibili sono suddivisi nelle seguenti categorie:
 
 #### Art. 5 | Pubblicazione nei canali ufficiali
 
-Tutti i mandati devono essere pubblicati negli appositi canali ufficiali della città:
+Tutti i mandati di cattura e di comparizione devono essere pubblicati negli appositi canali ufficiali della città:
 
 * [Convocazioni](https://discord.com/channels/1206698460049317958/1463637972669829292)
 * [Ricercati](https://discord.com/channels/1206698460049317958/1331018553276633189)
+
+Inoltre devono essere pubblicati nella sezione ufficiale Inter-Forze del Governo: [Mandati Inter-Forze](https://discord.com/channels/1428458093129502792/1428458096891793428)
+
+***
+
+### Eventuali ingerenze o mancate norme procedurali, porteranno a severe sanzioni disciplinari.
