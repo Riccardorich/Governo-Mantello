@@ -45,5 +45,7 @@ I provvedimenti richiedibili sono suddivisi nelle seguenti categorie:
 
 #### Art. 5 | Pubblicazione nei canali ufficiali
 
-Tutti i mandati devono essere pubblicati negli appositi canali ufficiali della città: [CANALE UFFICIALE](https://discord.com/channels/1206698460049317958/1463637972669829292)
+Tutti i mandati devono essere pubblicati negli appositi canali ufficiali della città:
 
+* [Convocazioni](https://discord.com/channels/1206698460049317958/1463637972669829292)
+* [Ricercati](https://discord.com/channels/1206698460049317958/1331018553276633189)
