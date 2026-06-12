@@ -3,7 +3,7 @@ description: Legge sulla Tassazione delle Attività Commerciali
 icon: arrow-trend-up
 ---
 
-# Legge 2.11
+# Legge 2.11 | Tasse
 
 ### Art. 1 – Periodo di riferimento
 
@@ -27,9 +27,9 @@ La tassazione ha cadenza settimanale e viene calcolata nel periodo compreso tra 
 
 #### Settore F.D.O.
 
-* Da $ 0 a $ 1.000.000 → 13%
-* Da $ 1.000.001 a $ 3.000.000 → 15%
-* Da $ 3.000.001 a infinito → 18%
+* Da $ 0 a $ 1.000.000 → 15%
+* Da $ 1.000.001 a $ 3.000.000 → 20%
+* Da $ 3.000.001 a infinito → 25%
 
 #### Settore Ospedale
 
@@ -93,9 +93,9 @@ Le richieste inviate al di fuori di tali orari o giorni non saranno considerate 
 
 ### Formato obbligatorio:
 
-`Si richiede detrazione per questa settimana di:`&#x20;
+`Si richiede detrazione per questa settimana di:`
 
-* `Certificato  .....  |  $ 5.000`
+* `Certificato ..... | $ 5.000`
 * `Dispositivo ....... | $ 40.000`
 * `Modulistica ....... | $ 15.000`
 * `................... | $ 48.000`
@@ -134,6 +134,6 @@ In caso di mancato pagamento entro i termini previsti:
 
 ***
 
-### &#x20;Art. 8 – Entrata in Vigore
+### Art. 8 – Entrata in Vigore
 
 La presente legge entra in vigore immediatamente dopo la sua pubblicazione ufficiale.
