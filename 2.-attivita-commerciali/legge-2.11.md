@@ -7,7 +7,7 @@ icon: arrow-trend-up
 
 ### Art. 1 – Periodo di riferimento
 
-La tassazione ha cadenza settimanale e viene calcolata nel periodo compreso tra domenica e domenica.
+La tassazione ha cadenza settimanale e viene calcolata nel periodo compreso tra lunedì e domenica.
 
 ***
 
@@ -85,9 +85,9 @@ Non possono essere portati in detrazione:
 La richiesta di detrazione deve essere effettuata esclusivamente:
 
 * Nella sezione “BILANCI” del sito aziendale
-* Nel giorno di domenica, tra le 17:00 e le 23:59
+* Tra il giovedì e la domenica
 
-Le richieste inviate al di fuori di tali orari o giorni non saranno considerate valide.
+Le richieste inviate al di fuori di tali giorni non saranno considerate valide.
 
 ***
 
