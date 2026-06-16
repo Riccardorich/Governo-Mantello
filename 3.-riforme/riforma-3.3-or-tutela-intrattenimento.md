@@ -11,7 +11,9 @@ Questa normativa nasce con lo spirito di sostenere i locali e le agenzie che ded
 
 #### Art. 1 – Sinergia tra Attività
 
-Al fine di favorire la massima partecipazione della cittadinanza agli eventi ufficiali, durante lo svolgimento di tali iniziative, si invita la comunità commerciale a confluire verso il luogo dell’evento. Per sostenere questa sinergia, i locali di intrattenimento sono invitati a sospendere le proprie attività al pubblico, favorendo la concentrazione dell’utenza attorno all’evento in corso.
+Al fine di favorire la massima partecipazione della cittadinanza agli eventi ufficiali, durante lo svolgimento di tali iniziative, si invita la comunità commerciale a confluire verso il luogo dell’evento. Per sostenere questa sinergia, i locali di intrattenimento sono invitati a **sospendere le proprie attività al pubblico per i primi 30 minuti dall'inizio dell'evento**, favorendo la concentrazione dell’utenza attorno all’evento in corso (Eccezion fatta per: concessionari, meccanici, negozietti e rivenditori di antistress (Sigaretta d'oro ed Enveart weed shop)
+
+.&#x20;
 
 ***
 
