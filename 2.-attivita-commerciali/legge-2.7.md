@@ -4,54 +4,41 @@ icon: user-check
 
 # Legge 2.7 | Censimento
 
-Costo per ogni dipendente dichiarato: 7.500$
+Il censimento dei dipendenti è obbligatorio per tutte le attività registrate sul territorio. Lo scopo della presente normativa è mantenere un registro aggiornato, preciso e verificabile del personale impiegato, garantendo la regolarità del lavoro all'interno dello Stato di San Andreas.
 
-Il censimento dei dipendenti è obbligatorio per tutte le attività registrate e ha lo scopo di mantenere aggiornato il registro del personale impiegato all’interno delle attività presenti sul territorio.
+#### Art. 1 – Definizione e Oggetto
 
-***
+Il censimento consiste nella registrazione ufficiale di tutti i dipendenti in forza presso un’attività commerciale. In sede di procedura dovranno essere comunicati:
 
-1\. Definizione di Censimento Attività
-
-Il censimento delle attività consiste nella registrazione ufficiale di tutti i dipendenti assunti da un’attività.
-
-Durante la procedura vengono registrati:
-
-* Dati anagrafici del dipendente
-* Ruolo ricoperto all’interno dell’attività
-* Eventuali nuove assunzioni
-* Eventuali cessazioni di rapporto lavorativo
-
-L’obiettivo è garantire un registro aggiornato, preciso e verificabile del personale impiegato nelle attività commerciali.
+* Dati anagrafici completi del dipendente.
+* Ruolo ricoperto.
+* Aggiornamenti in caso di nuove assunzioni o cessazioni del rapporto lavorativo.
 
 ***
 
-2\. Procedura per il Censimento
+#### Art. 2 – Procedura e Adempimenti
 
-Raccolta delle informazioni
-
-Il/la proprietario/a dell’attività dovrà fornire i seguenti dati per ogni dipendente:
-
-* Nome
-* Cognome
-* Data di nascita
-* Ruolo ricoperto all’interno dell’attività
-
-Nel caso in cui non si tratti del primo censimento, sarà inoltre necessario fornire:
-
-* Elenco dei dipendenti licenziati
-* Elenco dei dipendenti dimissionari
-
-Sarà compito dell’incaricato verificare che le persone cessate non risultino più registrate come dipendenti attivi.
+Il titolare dell’attività è responsabile della trasmissione dei dati. Per ogni risorsa, devono essere forniti: nome, cognome, data di nascita e mansione. In fase di aggiornamento periodico, è fatto obbligo di segnalare il personale licenziato o dimissionario affinché venga rimosso dal registro degli attivi.
 
 ***
 
-3\. Fatturazione
+#### Art. 3 – Fatturazione e Costi
 
-Per ogni nuovo dipendente registrato dovrà essere emessa fattura al proprietario dell’attività:
+Per ogni nuovo dipendente censito è previsto un costo di registrazione pari a 7.500$, fatturato direttamente al titolare dell’attività.
 
-* 7.500$ per ogni nuovo dipendente censito
+* Esenzioni: Sono esenti dal pagamento dei diritti di censimento i titolari dell’attività e il personale in regime di tirocinio.
 
-Sono esenti dal pagamento:
+***
 
-* I titolari dell’attività
-* I tirocinanti
+#### Art. 4 – Sanzioni e Provvedimenti
+
+Il Governo e le autorità competenti effettueranno verifiche periodiche per garantire il rispetto della presente normativa. In caso di riscontrate irregolarità (omessa registrazione o discrepanze nel registro del personale), si applicheranno le seguenti sanzioni:
+
+1. Sanzione pecuniaria: Ogni irregolarità riscontrata comporta una multa base di 50.000$, a cui si aggiunge un’ammenda supplementare di 12.000$ per ogni dipendente non censito.
+2. Regime di Recidività: Il reiterato inadempimento comporterà misure restrittive crescenti nei confronti dell'attività:
+   * Alla 2ª infrazione: Sequestro temporaneo dell'attività per 24 ore.
+   * Alla 3ª infrazione: Sequestro temporaneo dell'attività per 48 ore.
+   * Dalla 4ª infrazione in poi: Sequestro temporaneo dell'attività per 72 ore e avvio dell'iter per la chiusura permanente dell'esercizio commerciale.
+
+\
+_Nota: La regolarità del personale è un requisito fondamentale per la licenza commerciale. Il Governo invita tutti i titolari alla massima precisione nella gestione dei propri registri per evitare spiacevoli provvedimenti amministrativi._
