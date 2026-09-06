@@ -55,8 +55,7 @@ I prezzi sono interpretati come segue:
 I controlli sul rispetto della presente legge sono affidati a:
 
 * Forze dell’Ordine (FDO)
-* Organi governativi competenti
-* Eventuali ispettori autorizzati
+* Organi governativi competenti&#x20;
 
 I controlli possono avvenire:
 
