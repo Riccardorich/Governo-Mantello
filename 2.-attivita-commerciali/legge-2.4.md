@@ -23,7 +23,7 @@ La presente legge disciplina il rilascio del Certificato Security, necessario al
 
 1. Il costo per il rilascio del Certificato Security è fissato in 40.000 dollari.
 2. Il certificato ha durata di 1 mese dalla data di emissione.
-3. Il rinnovo può essere richiesto entro e non oltre 5 giorni dalla data di scadenza, al costo di 20.000 dollari.
+3. Il rinnovo può essere richiesto entro e non oltre 3 giorni dalla data di scadenza, al costo di 20.000 dollari.
 4. Decorso tale termine, il certificato sarà considerato scaduto e dovrà essere richiesto ex novo al costo ordinario di 40.000 dollari.
 
 ***
@@ -108,9 +108,9 @@ La presente legge entra in vigore immediatamente dopo la pubblicazione ufficiale
 
 | Rilascio Certificato Security         | 40.000 $  | Valido 1 mese                  |
 | ------------------------------------- | --------- | ------------------------------ |
-| Rinnovo Certificato                   | 20.000 $  | Entro 5 giorni dalla scadenza  |
-| Nuovo certificato dopo scadenza       | 40.000 $  | Dopo il 5° giorno              |
-| Certificato di Integrazione (cadauno) | 3.000 $   | Dopo denuncia immediata        |
+| Rinnovo Certificato                   | 20.000 $  | Entro 3 giorni dalla scadenza  |
+| Nuovo certificato dopo scadenza       | 40.000 $  | Dopo il 3° giorno              |
+| Certificato di Integrazione (cadauno) | 5.000 $   | Dopo denuncia immediata        |
 | Sanzione seriale non conforme         | 50.000 $  | Immediata in caso di controllo |
 | Sanzione oltre 10 Teaser              | 120.000 $ | Immediata                      |
 | Sanzione mancata denuncia smarrimento | 40.000 $  | Alla verifica del fatto        |
