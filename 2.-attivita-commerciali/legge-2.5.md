@@ -40,7 +40,7 @@ Il Governo, ricevuta la richiesta e verificata la documentazione, procederà con
 * la valutazione delle condizioni di sicurezza;
 * la verifica della compatibilità dell’evento con l’ordine pubblico e con eventuali altre attività già programmate.
 
-Il costo per il rilascio del documento autorizzativo è pari a 5.000$, da versare da parte del cittadino o del locale richiedente.
+Il costo per il rilascio del documento autorizzativo è pari a 15.000$, da versare da parte del cittadino o del locale richiedente.
 
 Una volta approvata la richiesta, il Governo rilascerà l’autorizzazione ufficiale all’evento.
 
