@@ -3,7 +3,7 @@ description: REGOLAMENTAZIONE COMMERCIO ARMI E CERTIFICAZIONI PDA
 icon: gun
 ---
 
-# Legge 2.8
+# Legge 2.8 | Armi e PDA
 
 La presente legge stabilisce i protocolli obbligatori e i prezzi fissi per il conseguimento del Porto d'Armi (PDA) e la vendita di equipaggiamento balistico presso le Armerie, il Dipartimento Medico (EMS) e le Forze dell'Ordine (FDO).
 
@@ -22,10 +22,9 @@ Per garantire l’equità economica e la sicurezza pubblica, sono stabiliti i se
 
 È fatto divieto assoluto alle armerie di applicare sconti, ricarichi o promozioni sui seguenti articoli:
 
-* 60.000$ – Pistola Modello SNS.
-* 40$ (cadauno) – Munizioni calibro 9mm.
-
-Deroga FDO: Gli equipaggiamenti destinati esclusivamente alle Forze dell'Ordine non sono soggetti a listino fisso; per tali forniture è consentita la libera contrattazione tra l'armeria e il comando di riferimento.
+I prezzi stabiliti da legge sono disponibili al seguente link : \
+\
+[Prezzi Armeria](legge-2.10.md#armerie)
 
 ***
 
