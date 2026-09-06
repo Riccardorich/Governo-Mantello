@@ -98,21 +98,21 @@ Le violazioni sono punite come segue:
 
 (es. errore di prezzo minimo non significativo)
 
-* Multa da 5.000$ a 10.000$
+* Multa da 30.000$ a 50.000$
 * Richiamo ufficiale
 
 **Violazioni gravi**
 
 (es. prezzi alterati, sconti, omaggi)
 
-* Multa da 10.000$ a 30.000$
+* Multa da 70.000$ a 100.000$
 * Possibile sospensione dell’attività fino a 48 ore
 
 **Violazioni molto gravi**
 
 (es. vendita fuori listino, recidiva, frode)
 
-* Multa da 30.000$ a 80.000$
+* Multa da 120.000$ a 150.000$
 * Chiusura temporanea attività fino a 7 giorni
 * Possibile revoca della licenza
 
@@ -120,7 +120,7 @@ Le violazioni sono punite come segue:
 
 (es. sistema organizzato per aggirare la legge)
 
-* Multa superiore a 100.000$
+* Multa superiore a 170.000$
 * Chiusura definitiva dell’attività
 * Eventuali ulteriori provvedimenti legali
 
