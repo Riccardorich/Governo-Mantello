@@ -7,14 +7,14 @@ icon: screwdriver
 
 | Prodotto            | Spesa Officina | Prezzo Vendita |
 | ------------------- | -------------- | -------------- |
-| Gomme (x4)          | $ 2.000        | $ 2.150        |
-| Cancele (x4)        | $ 800          | $ 900          |
-| Pastiglie (x4)      | $ 800          | $ 900          |
-| Sospensioni (x4)    | $ 1.000        | $ 1.200        |
-| Olio (x1)           | $ 300          | $ 350          |
-| Frizione (x1)       | $ 300          | $ 350          |
-| Filtro Aria (x1)    | $ 300          | $ 350          |
-| Tagliando Completo: | $ 5.500        | $ 6.200        |
+| Gomme (x4)          | $ 1.500        | $ 3.000        |
+| Cancele (x4)        | $ 3.600        | $ 4.500        |
+| Pastiglie (x4)      | $ 9.000        | $ 11.000       |
+| Sospensioni (x4)    | $ 9.000        | $ 11.000       |
+| Olio (x1)           | $ 750          | $ 1.000        |
+| Frizione (x1)       | $ 4.000        | $ 5.000        |
+| Filtro Aria (x1)    | $ 1.000        | $ 1.250        |
+| Tagliando Completo: | $ 14.900       | $ 18.000       |
 
 #### VENDITA KIT RIPARAZIONE
 
