@@ -37,7 +37,7 @@ I provvedimenti richiedibili sono suddivisi nelle seguenti categorie:
 
 * **Canale di inoltro:** Tutte le istanze devono essere trasmesse tramite l'apposito collegamento ufficiale verso la Procura della Repubblica.
 * **Obbligo di prova:** Per ogni tipologia di mandato è obbligatorio allegare prove oggettive (foto, video, testimonianze, registri) che supportino la richiesta.\
-  &#xNAN;_`Nota:`_` ``Il mandato di Comparizione è l'unica tipologia che non richiede il supporto probatorio in fase di domanda.`
+  _`Nota:`_` ``Il mandato di Comparizione è l'unica tipologia che non richiede il supporto probatorio in fase di domanda.`
 * **Valutazione delle istanze:** La Procura esaminerà il fascicolo e inoltrerà la richiesta al Giudice per l'approvazione finale. In assenza di un Procuratore disponibile, il Giudice procederà direttamente all'esame della documentazione e alla valutazione dell'istanza.\
   `Nota: In assenza di giudici ed in casi di particolare urgenza la facoltà di firmare ed emanare mandati di qualsiasi tipo viene scalata a Segretario della Giustizia, Segretario di Stato, Vice Governatore e Governatore.`
 

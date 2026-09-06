@@ -3,66 +3,104 @@ description: Riforma Dipartimento Burocrazia Cittadina
 icon: pump-soap
 ---
 
-# Legge 2.12
+# Legge 2.12 | Riforma Burocrazia
 
 #### **Articolo 1:** Certificato di Prevenzione Incendi (CPI)
 
 1. Il Certificato di Prevenzione Incendi è obbligatorio per tutte le attività presenti nella città.
 2. Viene rilasciato dall’Ufficio Burocrazia del Governo.
-3. Ha una validità di 10 giorni dalla data di emissione.
+3. Ha una validità di 30 giorni dalla data di emissione.
 4. Condizioni particolari:
-   * Se il certificato risulta scaduto da oltre 1 giorno, non è possibile effettuare il rinnovo. Sarà necessario procedere con una nuova richiesta.
-5. Sanzioni:
-   * Detrazione di 30 punti dal punteggio complessivo in fase di ispezione.
+   * Se il certificato risulta scaduto da oltre 3  giorni, non è possibile effettuare il rinnovo. Sarà necessario procedere con una nuova richiesta.
+5.  Sanzioni:
 
-***
+    <br>
+
+{% columns %}
+{% column valign="bottom" %}
+Classificazione
+
+Tipo 1
+
+Tipo 2
+
+Tipo 3
+
+Tipo 4
+{% endcolumn %}
+
+{% column %}
+N° Estintori
+
+2 estintori
+
+4 estintori
+
+6 estintori
+
+8 estintori
+{% endcolumn %}
+
+{% column %}
+Costo CPI&#x20;
+
+15.000 $
+
+20.000$
+
+25.000$
+
+30.000$
+{% endcolumn %}
+
+{% column %}
+Sanzione&#x20;
+
+35.000$
+
+45.000$
+
+60.000$
+
+75.000$
+{% endcolumn %}
+{% endcolumns %}
 
 #### **Articolo 2: Certificato HARCP per Attività Food**
 
 1. Il Certificato HARCP è obbligatorio per tutte le attività food operative nella città.
 2. Viene rilasciato dall’Ufficio Burocrazia del Governo.
-3. Ha una validità di 10 giorni dalla data di rilascio.
+3. Ha una validità di 30 giorni dalla data di rilascio.
 4. Condizioni particolari:
-   * Se il certificato risulta scaduto da oltre 1 giorno, non è rinnovabile.
-5. Sanzioni:
-   * Detrazione di 30 punti dal punteggio complessivo in fase di ispezione.
-
-***
-
-#### **Articolo 3:** Certificato HACCP per i Dipendenti Food
-
-1. Ogni dipendente assunto in un’attività food deve essere in possesso del Certificato HACCP.
-2. I lavoratori in prova hanno 7 giorni di tempo per ottenerlo.
-3. Il certificato è rilasciato dall’Ufficio Burocrazia, previa partecipazione al corso governativo (vedi Articolo 6).
-4. Ha una validità di 30 giorni.
-5. Il costo è di $5.000 sia per il rilascio che per il rinnovo.
+5. Il costo della certificazione è: 40.000$  per il primo rilascio  i rinnovi 20.000$
+   * Se il certificato risulta scaduto da oltre 3 giorno, non è rinnovabile.
 6. Sanzioni:
-   * Detrazione di 10 punti all’attività per assenza o scadenza del certificato.
-   * Verbale di $15.000 al dipendente. Il certificato verrà rilasciato solo dopo il pagamento e la frequenza del corso.
+   * Eventuali ingerenze degli organi competenti è prevista una multa di 60.000$
 
 ***
 
-#### **Articolo 4:** Licenza per la Vendita di Alcolici
+***
+
+#### **Articolo 3:** Licenza per la Vendita di Alcolici
 
 1. Ogni attività food che intende vendere alcolici deve essere in possesso della relativa licenza.
 2. La licenza viene rilasciata dall’Ufficio Burocrazia del Governo.
-3. Ha una validità di 10 giorni dalla data di rilascio.
+3. Ha una validità di 30 giorni dalla data di rilascio.
 4. Costi:
-   * Nuovo rilascio: $15.000
-   * Rinnovo: $5.000
+   * Nuovo rilascio: $50.000
+   * Rinnovo: $25.000
 5. Condizioni particolari:
-   * Se la licenza è scaduta da oltre 1 giorno, non è rinnovabile.
+   * Se la licenza è scaduta da oltre 3 giorno, non è rinnovabile.
 6. Sanzioni:
-   * Detrazione di 25 punti nel punteggio dell’ispezione.
-   * Sanzione economica di $20.000 all’attività.
+   * Sanzione economica di $60.000 all’attività.
 
 ***
 
-#### **Articolo 5:** Ispezioni
+#### **Articolo 4:** Ispezioni
 
 1. Le ispezioni sono effettuate esclusivamente dall’Ufficio Burocrazia del Governo.
 2. Ogni attività può subire al massimo 2 ispezioni settimanali.
-3. Le ispezioni consecutive sono consentite solo previa autorizzazione del Segretario della Salute o suo delegato.
+3. Le ispezioni consecutive sono consentite solo previa autorizzazione del Segretario Sviluppo beni e Servizi o suo delegato.
 4. Ogni ispezione deve avvenire con la presenza minima di 3 agenti della sicurezza governativa.
 5. Possibili conseguenze:
    * Emissione di multe.
@@ -71,9 +109,9 @@ icon: pump-soap
 
 ***
 
-#### **Articolo 6:** Corso HACCP – Norme Igienico-Sanitarie
+#### **Articolo 6:** HARCP – Norme Igienico-Sanitarie
 
-1. Tutti i dipendenti food sono obbligati a seguire il corso HACCP.
+1. Tutti i dipendenti food sono obbligati a conseguire il certificato HARCP
 2. Igiene personale:
    * Lavarsi accuratamente le mani prima di maneggiare alimenti o bevande.
    * Utilizzare guanti o protezioni, se disponibili.
