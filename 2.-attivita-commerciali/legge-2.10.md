@@ -184,11 +184,12 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### BENZINAIO
 
-| Articolo           | Min  | Max   | Prezzo Consigliato |
-| ------------------ | ---- | ----- | ------------------ |
-| Diesel             | 25 $ | 100 $ | 60 $               |
-| Benzina            | 25   | 100 $ | 60 $               |
-| Ricarica Elettrica |      |       |                    |
+| Articolo       | Min  | Max   | Prezzo Consigliato |
+| -------------- | ---- | ----- | ------------------ |
+| Diesel         | 18 $ | 24 $  | 18 $               |
+| Benzina        | 15 $ | 20 $  | 15 $               |
+| Tanica Benzina | //   | 750 $ | //                 |
+| Tanica Diesel  | //   | 900 $ | //                 |
 
 ***
 
