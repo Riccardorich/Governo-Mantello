@@ -140,7 +140,7 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### ATTIVITÀ FOOD
 
-<table><thead><tr><th width="225">Articolo</th><th>Min</th><th>Medio</th><th>Max</th><th width="127">Prezzo Min FDO</th></tr></thead><tbody><tr><td>Cibo</td><td>//</td><td>200$</td><td>//</td><td>150$</td></tr><tr><td>Bevande</td><td>//</td><td>200$</td><td>//</td><td>150$</td></tr><tr><td>Accendino</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Sigarette</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Sigari</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Canne</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Gratta e Vinci Classico</td><td></td><td>250 $</td><td></td><td></td></tr><tr><td>Gratta e Vinci Premium</td><td></td><td>550 $</td><td></td><td></td></tr><tr><td>Gratta e Vinci Vip</td><td></td><td>1.100 $</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="225">Articolo</th><th>Min</th><th>Medio</th><th>Max</th><th width="127">Prezzo Min FDO</th></tr></thead><tbody><tr><td>Cibo</td><td>//</td><td>200$</td><td>//</td><td>150$</td></tr><tr><td>Bevande</td><td>//</td><td>200$</td><td>//</td><td>150$</td></tr><tr><td>Accendino</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Sigarette</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Sigari</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Canne</td><td>//</td><td>//</td><td>//</td><td>//</td></tr><tr><td>Gratta e Vinci </td><td>//</td><td>1000$ (20 max a persona giornalieri)</td><td>//</td><td>//</td></tr></tbody></table>
 
 ***
 
