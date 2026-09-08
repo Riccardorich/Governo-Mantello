@@ -25,6 +25,7 @@
   * [Legge 2.13 | Rimozone Forzata](2.-attivita-commerciali/legge-2.13.md)
   * [Legge 2.14 | Veicoli e Proprietà](2.-attivita-commerciali/legge-2.14-or-veicoli-e-proprieta.md)
   * [Legge 2.15 | Tagliandi e Kit Riparazione](2.-attivita-commerciali/legge-2.15-or-tagliandi-e-kit-riparazione.md)
+  * [Legge 2.16 | Istituti di credito](2.-attivita-commerciali/legge-2.16-or-istituti-di-credito.md)
 * [📒 3. Riforme](3.-riforme/README.md)
   * [Riforma 3.1](3.-riforme/riforma-3.1.md)
   * [Riforma 3.2 | PDA](3.-riforme/riforma-3.2.md)
