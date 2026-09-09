@@ -40,7 +40,7 @@ icon: vault
 #### Art. 2.1 – Contratti di Finanziamento e Tassi d'Interesse
 
 1. Ogni prestito o apertura di credito deve essere stipulato per iscritto, specificando capitale, rate, scadenze, garanzie e condizioni di estinzione.
-2. Soglia Interessi: I tassi di interesse applicabili sui prestiti devono essere obbligatoriamente compresi tra l'1% e il 5%, parametrati all'importo erogato e alla durata del contratto. È vietata la pattuizione di tassi superiori.
+2. Soglia Interessi: I tassi di interesse applicabili sui prestiti devono essere obbligatoriamente uguali o inferiori al 25%, parametrati all'importo erogato e alla durata del contratto. È vietata la pattuizione di tassi superiori.
 
 #### Art. 2.2 – Trasparenza, Controlli Fiscali e Antiriciclaggio
 
