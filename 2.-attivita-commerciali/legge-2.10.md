@@ -166,13 +166,11 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ### TABACCHERIA
 
-<table><thead><tr><th width="249">Articolo</th><th width="110">Min</th><th>Medio</th><th width="101">Max</th><th>FDO</th></tr></thead><tbody><tr><td>Accendino</td><td>//</td><td>400 $</td><td>//</td><td>-</td></tr><tr><td>Sigaretta</td><td>//</td><td>125 $</td><td>//</td><td>-</td></tr><tr><td>Sigaro</td><td>//</td><td>300 $</td><td>//</td><td>250 $</td></tr><tr><td>Canne</td><td>//</td><td>500 $</td><td>// </td><td>450 $</td></tr><tr><td>Canne : Carichi verso aziende (minimo 100 pezzi)  </td><td>//</td><td>400$</td><td>//</td><td>350$</td></tr><tr><td>Gratta e vinci</td><td>//</td><td>1.000 $ (max 20 a persona giornalieri)</td><td>//</td><td>//</td></tr></tbody></table>
+<table><thead><tr><th width="249">Articolo</th><th width="110">Min</th><th>Medio</th><th width="101">Max</th><th>FDO</th></tr></thead><tbody><tr><td>Accendino</td><td>//</td><td>400 $</td><td>//</td><td>-</td></tr><tr><td>Sigaretta</td><td>//</td><td>125 $</td><td>//</td><td>-</td></tr><tr><td>Sigaro</td><td>//</td><td>300 $</td><td>//</td><td>250 $</td></tr><tr><td>Canne*</td><td>//</td><td>500 $</td><td>// </td><td>450 $</td></tr><tr><td>Gratta e vinci</td><td>//</td><td>1.000 $ (max 20 a persona giornalieri)</td><td>//</td><td>//</td></tr></tbody></table>
 
-`* Solo confezioni da MIN 100 PEZZI e solo per convenzioni con LOCALI FOOD: 150 $`
+`* Solo confezioni da MIN 100 PEZZI e solo per convenzioni con LOCALI FOOD: 400 $`
 
-`** Solo confezioni da MIN 100 PEZZI e solo per convenzioni con LOCALI FOOD: 300 $`
-
-`*** Solo confezioni da MIN 100 PEZZI e solo per convenzioni con LOCALI FOOD: 800 $`
+`* Solo confezioni da MIN 100 PEZZI e solo per convenzioni con FDO:` 350`$`
 
 ***
 
