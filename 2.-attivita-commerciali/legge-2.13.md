@@ -3,7 +3,7 @@ description: Legge sulla Rimozione Forzata dei Veicoli – Los Santos
 icon: truck-pickup
 ---
 
-# Legge 2.13
+# Legge 2.13 | Rimozone Forzata
 
 #### Art. 1 – Oggetto
 
@@ -52,15 +52,9 @@ Non è consentita la rimozione nei seguenti casi:
 
 ***
 
-#### Art. 5 – Disposizioni speciali per il locale “Luma”
-
-Tutte le auto parcheggiate sulla spiaggia antistante il locale Luma sono soggette a rimozione forzata senza eccezioni.
-
-Gli unici stalli di parcheggio consentiti per i clienti del Luma sono quelli frontalmente al locale e predisposti a tale scopo, con applicazione delle regole e dei criteri previsti dall’ Art. 4.
-
 ***
 
-#### Art. 6 – Sanzioni
+#### Art. 5 – Sanzioni
 
 Qualsiasi segnalazione che accerti ingerenze o mancanze nell’operatività del servizio di rimozione forzata comporterà:
 
@@ -69,7 +63,7 @@ Qualsiasi segnalazione che accerti ingerenze o mancanze nell’operatività del 
 
 ***
 
-#### Art. 7 – Tariffario del servizio
+#### Art. 6 – Tariffario del servizio
 
 * Il prezzo fisso per ogni intervento di rimozione forzata è stabilito in 10.000 $ qualora il veicolo non sia stato già trasportato in deposito e 15.000$ qualora il veicolo si trovi già sequestrato in deposito.
 
