@@ -1,3 +1,7 @@
+---
+icon: newspaper
+---
+
 # Legge 2.17 | Abilitazione dei Giornalisti
 
 Legge sull’Abilitazione e Registrazione dei Giornalisti
