@@ -209,7 +209,7 @@ La presente legge entra in vigore con effetto immediato ed è obbligatoria per t
 
 ***
 
-## PREZZI VEICOLI CONCESSIONARIO \*\*IN AGGIORNAMENTO / NON TENERE CONTO DEI PREZZI IN TABELLA\*\*
+## PREZZI VEICOLI CONCESSIONARIO
 
 #### FUORISTRADA
 
