@@ -3,7 +3,7 @@ description: Insolvenza delle sanzioni pecuniarie per mancato pagamento
 icon: receipt
 ---
 
-# Legge 1.6
+# Legge 1.7
 
 #### 1. Applicazione del Fermo Giudiziario (48 Ore)
 
@@ -13,7 +13,7 @@ Qualora un soggetto sottoposto ad arresto o fermo non disponga, al momento dell'
 
 #### 2. Rinvio a Giudizio ed Escalation Penale
 
-Decorso inutilmente il termine di 48 ore senza che il debito sia stato integralmente saldato, il soggetto è direttamente rinviato a giudizio direttissimo davanti all'Autorità Giudiziaria. In sede processuale, l'imputato risponderà del reato di _Insolvenza Fraudolenta e Violazione degli Obblighi Sanzionatori_, per il quale il Giudice potrà disporre:
+Decorso inutilmente il termine di 24 ore senza che il debito sia stato integralmente saldato, il soggetto è direttamente rinviato a giudizio direttissimo davanti all'Autorità Giudiziaria. In sede processuale, l'imputato risponderà del reato di _Insolvenza Fraudolenta e Violazione degli Obblighi Sanzionatori_, per il quale il Giudice potrà disporre:
 
 * Una pena pecuniaria minima di $500.000;
 * Fino alla massima pena detentiva e pecuniaria prevista dall'ordinamento per la condotta contestata.
@@ -22,7 +22,7 @@ Decorso inutilmente il termine di 48 ore senza che il debito sia stato integralm
 
 #### 3. Estinzione del Processo e Spese di Giustizia
 
-Qualora il soggetto reperisca la somma dovuta dopo la scadenza delle 48 ore, ma prima della celebrazione dell'udienza processuale:
+Qualora il soggetto reperisca la somma dovuta dopo la scadenza delle 24 ore, ma prima della celebrazione dell'udienza processuale:
 
 * Il procedimento penale s'intende estinto e il processo evitato;
 * Il soggetto è comunque tenuto al pagamento contestuale dell'importo originale della multa maggiorato di una quota fissa per Spese Processuali pari a $150.000.
