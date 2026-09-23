@@ -10,6 +10,7 @@
   * [Legge 1.5](1.-codice-civile/legge-1.5.md)
   * [Legge 1.6](1.-codice-civile/legge-1.6.md)
   * [Legge 1.7](1.-codice-civile/legge-1.7.md)
+  * [Legge 1.8](1.-codice-civile/legge-1.8.md)
 * [🏪 2. Attività Commerciali](2.-attivita-commerciali/README.md)
   * [Legge 2.1 | Vetri Oscurati](2.-attivita-commerciali/legge-2.1.md)
   * [Legge 2.2 | Antincendio](2.-attivita-commerciali/legge-2.2.md)
