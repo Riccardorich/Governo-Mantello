@@ -6,8 +6,6 @@ icon: book-open-lines
 
 Il presente regolamento disciplina le modalità e l'iter che segue un procedimento penale.
 
-
-
 ### 1. Richiesta di Avvio del Procedimento
 
 Per avviare un procedimento legale, è necessario presentare una richiesta formale tramite apertura di un ticket presso la Segreteria del Governo (categoria: generale).
@@ -18,7 +16,7 @@ Il documento di richiesta dovrà includere obbligatoriamente:
 * Descrizione della denuncia e dei fatti;
 * Eventuale testimonianza;
 * Richieste avanzate dalla parte;
-* Prove a supporto (video/audio/documentali);
+* Prove a supporto (video/audio/documentali); Dovrà essere visibile anche la corretta attivazione del dispositivo.
 * Indicazione dei testimoni, qualora presenti.
 
 ***
@@ -32,10 +30,16 @@ Il giudice stabilirà:
 * La presenza dei presupposti legali;
 * L’idoneità della documentazione;
 * La necessità di procedere con un iter processuale.
+* Accoglimento o rigetto  : Al termine della valutazione, la denuncia potrà essere accolta oppure respinta.
 
-Solo in caso di esito positivo, si procederà con l’apertura formale del procedimento.
+### **2.1  Intervento della Procura**
 
-***
+\
+Qualora la denuncia venga accolta, la Procura procederà con gli adempimenti di propria competenza e, ove previsto dal caso, provvederà a convocare gli **Affari Interni** per gli opportuni accertamenti e per il prosieguo della procedura. A quel punto gli Affari Interni procederanno a convocare l'Agente / gli Agenti e qualora previsto procederanno con la sospensione fino alla chiusura delle indagini preliminari.Finito ciò il Giudice comunicherà al denunciante l'esito della sua segnalazione, quindi se è stata Accolta o Respinta in quanto i fatti non sussistono reato.
+
+La presente procedura ha lo scopo di garantire che ogni denuncia venga valutata sulla base di elementi concreti, verificabili e documentati, assicurando maggiore trasparenza e correttezza nell'accertamento dei fatti
+
+
 
 ### 3. Apertura delle Istanze
 
@@ -47,14 +51,6 @@ A seguito dell’accettazione del caso, verranno aperte le due istanze ufficiali
 Tutte le comunicazioni ufficiali dovranno transitare esclusivamente tramite tali canali.
 
 ***
-
-### 4. Fase di Discovery
-
-Prima dell’avvio del processo, si svolge la fase di discovery, durante la quale:
-
-* Le parti raccolgono ulteriori prove;
-* Vengono individuati nuovi testimoni;
-* Possono essere avanzate richieste all’Ufficio del Giudice.
 
 #### Colloqui
 
@@ -147,8 +143,6 @@ Di conseguenza:
 * il procedimento si intende concluso senza apertura del dibattimento.<br>
 
 La valutazione sulla sostenibilità delle prove è rimessa al giudice, sulla base degli elementi raccolti dalle parti.
-
-
 
 ***
 
@@ -247,8 +241,6 @@ La trascrizione può essere realizzata attraverso diverse modalità, tra cui:
 * Documento scritto (trascrizione formale);
 * Registrazione audio del procedimento;
 * Registrazione video del procedimento.
-
-
 
 ***
 
