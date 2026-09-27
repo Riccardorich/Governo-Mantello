@@ -18,6 +18,7 @@ Il documento di richiesta dovrà includere obbligatoriamente:
 * Richieste avanzate dalla parte;
 * Prove a supporto (video/audio/documentali); Dovrà essere visibile anche la corretta attivazione del dispositivo.
 * Indicazione dei testimoni, qualora presenti.
+* L'accusa avrà 24 ore di tempo per allegare prove e comunicare eventuali testimoni al termine dei quali l'accusante non potrà inserire in alcun modo quanto citato e il giudice si basera solo su quanto allegato.
 
 ***
 
@@ -37,9 +38,7 @@ Il giudice stabilirà:
 \
 Qualora la denuncia venga accolta, la Procura procederà con gli adempimenti di propria competenza e, ove previsto dal caso, provvederà a convocare gli **Affari Interni** per gli opportuni accertamenti e per il prosieguo della procedura. A quel punto gli Affari Interni procederanno a convocare l'Agente / gli Agenti e qualora previsto procederanno con la sospensione fino alla chiusura delle indagini preliminari.Finito ciò il Giudice comunicherà al denunciante l'esito della sua segnalazione, quindi se è stata Accolta o Respinta in quanto i fatti non sussistono reato.
 
-La presente procedura ha lo scopo di garantire che ogni denuncia venga valutata sulla base di elementi concreti, verificabili e documentati, assicurando maggiore trasparenza e correttezza nell'accertamento dei fatti
-
-
+La presente procedura ha lo scopo di garantire che ogni denuncia venga valutata sulla base di elementi concreti, verificabili e documentati, assicurando maggiore trasparenza e correttezza nell'accertamento dei fatti.
 
 ### 3. Apertura delle Istanze
 
