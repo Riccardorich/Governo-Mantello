@@ -11,10 +11,10 @@ La presente legge stabilisce i protocolli obbligatori e i prezzi fissi per il co
 
 Per garantire l’equità economica e la sicurezza pubblica, sono stabiliti i seguenti costi fissi e non derogabili. Qualsiasi variazione di prezzo sarà perseguita come Illecito Amministrativo e Turbativa dell'Economia Statale.
 
-* 25.000$ – Test Medico-Psicoattitudinale: Da corrispondere esclusivamente al dipartimento EMS per la valutazione dell'idoneità mentale.
-* 25.000$ – Test Balistico: Da corrispondere alle Armerie autorizzate per la verifica delle capacità di maneggio dell'arma.
-* 50.000$ – Rilascio PDA: Da corrispondere alle FDO (LSPD/Sceriffi) per il controllo dei precedenti e l'emissione del documento fisico.
-* COSTO TOTALE OBBLIGATORIO: 100.000$
+* 15.000$ – Test Medico-Psicoattitudinale: Da corrispondere esclusivamente al dipartimento EMS per la valutazione dell'idoneità mentale.
+* 15.000$ – Test Balistico: Da corrispondere alle Armerie autorizzate per la verifica delle capacità di maneggio dell'arma.
+* 30.000$ – Rilascio PDA: Da corrispondere alle FDO (LSPD/Sceriffi) per il controllo dei precedenti e l'emissione del documento fisico.
+* COSTO TOTALE OBBLIGATORIO: 50.000$
 
 ***
 
