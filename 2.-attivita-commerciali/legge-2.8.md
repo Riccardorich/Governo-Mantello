@@ -13,8 +13,8 @@ Per garantire l’equità economica e la sicurezza pubblica, sono stabiliti i se
 
 * 15.000$ – Test Medico-Psicoattitudinale: Da corrispondere esclusivamente al dipartimento EMS per la valutazione dell'idoneità mentale.
 * 15.000$ – Test Balistico: Da corrispondere alle Armerie autorizzate per la verifica delle capacità di maneggio dell'arma.
-* 30.000$ – Rilascio PDA: Da corrispondere alle FDO (LSPD/Sceriffi) per il controllo dei precedenti e l'emissione del documento fisico.
-* COSTO TOTALE OBBLIGATORIO: 50.000$
+* 30.000$ – Rilascio PDA: Da corrispondere alle FDO (LSPD) per il controllo dei precedenti e l'emissione del documento fisico.
+* COSTO TOTALE OBBLIGATORIO: 60.000$
 
 ***
 
