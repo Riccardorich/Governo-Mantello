@@ -39,6 +39,17 @@ I prezzi stabiliti da legge sono disponibili al seguente link : \
 
 ***
 
+### ART. 4 - RINNOVI
+
+1. Ogni PDA ha una durata di 30 giorni, dopo la quale il suddetto dev'essere rinnovato.&#x20;
+2. Per i rinnovi si stabiliscono i seguenti prezzi:
+   1. 7.500$ – Test Medico-Psicoattitudinale
+   2. 7.500$ – Test Balistico
+   3. 15.000$ – Rinnovo PDA: Da corrispondere alle FDO (LSPD)
+3. Qualora un PDA non venga rinnovato entro i 10 giorni dalla sua scadenza, si ritiene ANNULLATO e dovrà essere conseguito ulteriormente come se fosse ex-novo.
+
+***
+
 #### 🏛️ NOTA DEL SEGRETARIO DELLA GIUSTIZIA
 
-Questa legge nasce per stroncare sul nascere il mercato nero e la concorrenza sleale. I Marshal hanno mandato pieno di agire come "Polizia Economica": se un'armeria vende un solo proiettile a 39$ o a 41$, l'attività verrà sigillata seduta stante per accertamenti. La legge è uguale per tutti, specialmente per chi vende strumenti di morte.
+Questa legge nasce per stroncare sul nascere il mercato nero e la concorrenza sleale. I Marshal hanno mandato pieno di agire come "Polizia Economica": se un'armeria vende un solo proiettile a 1$ in piú o in meno, l'attività verrà sigillata seduta stante per accertamenti. La legge è uguale per tutti, specialmente per chi vende strumenti di morte.
