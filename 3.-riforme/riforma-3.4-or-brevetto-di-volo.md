@@ -2,7 +2,7 @@
 icon: plane-departure
 ---
 
-# Riforma 3.3 | Brevetto di Volo
+# Riforma 3.4 | Brevetto di Volo
 
 Il presente manuale rappresenta il riferimento ufficiale per il conseguimento del Brevetto Aeronautico nello Stato di San Andreas. Il possesso del brevetto è requisito obbligatorio per la conduzione di qualsiasi aeromobile (ala fissa o rotante) nello spazio aereo statale. Il candidato è tenuto a padroneggiarne i contenuti per sostenere l'esame abilitativo.
 
@@ -75,6 +75,15 @@ L'abilitazione si articola in:
 * **Certificazione medica:** È richiesto un certificato di buona salute rilasciato dall'EMS.
 * **Costo rilascio:** 25.000$.
 * **Validità:** Il brevetto ha una validità di 30 giorni (non prorogabile).
-* **Costo rinnovo:** 15.000$.
+* **Costo rinnovo:** 35.000$.
+
+#### Art. 3 – Rinnovi
+
+* Certificazione medica: 12.500$
+* Rilascio presso il Governo: 17.500$
+
+
+
+***
 
 _Nota: Ogni violazione delle norme qui espresse sarà sanzionata in conformità con il Codice Penale vigente._
