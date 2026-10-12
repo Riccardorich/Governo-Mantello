@@ -5,18 +5,18 @@ icon: screwdriver
 
 # Legge 2.15 | Tagliandi e Kit Riparazione
 
-| Prodotto            | Spesa Officina | Prezzo Vendita |
-| ------------------- | -------------- | -------------- |
-| Gomme (x4)          | $ 1.500        | $ 3.000        |
-| Cancele (x4)        | $ 3.600        | $ 4.500        |
-| Pastiglie (x4)      | $ 9.000        | $ 11.000       |
-| Sospensioni (x4)    | $ 9.000        | $ 11.000       |
-| Olio (x1)           | $ 750          | $ 1.000        |
-| Frizione (x1)       | $ 4.000        | $ 5.000        |
-| Filtro Aria (x1)    | $ 1.000        | $ 1.250        |
-| Tagliando Completo: | $ 14.900       | $ 18.000       |
+| Prodotto            | Prezzo Vendita |
+| ------------------- | -------------- |
+| Pneumatici (x4)     | $ 3.500        |
+| Candele (x4)        | $ 7.000        |
+| Pastiglie (x4)      | $ 15.000       |
+| Sospensioni (x4)    | $ 10.000       |
+| Olio (x1)           | $ 1.500        |
+| Frizione (x1)       | $ 7.000        |
+| Filtro Aria (x1)    | $ 2.000        |
+| Tagliando Completo: | $ 46.000       |
 
-#### VENDITA KIT RIPARAZIONE
+### VENDITA KIT RIPARAZIONE
 
 Le officine potranno acquistare i componenti per la produzione dei kit di riparazione unicamente all'import.
 
@@ -28,11 +28,11 @@ Il prezzo d'acquisto per i negozietti dalle Officine è imposto a 5000$ (con sco
 
 ***
 
-#### SANZIONI
+### SANZIONI
 
-Qualsiasi ingerenza, interferenza o violazione delle disposizioni previste dalla legge sopra citata comporta l’applicazione di una sanzione amministrativa pecuniaria pari a 30.000 dollari\
+Qualsiasi ingerenza, interferenza o violazione delle disposizioni previste dalla legge sopra citata comporta l’applicazione di una sanzione amministrativa pecuniaria pari a 60.000 dollari\
 In caso di recidiva pari o superiore a tre violazioni accertate, si procederà con:
 
-* L’applicazione di una sanzione amministrativa pecuniaria pari a 70.000 dollari (
+* L’applicazione di una sanzione amministrativa pecuniaria pari a 100.000 dollari (
 * La chiusura temporanea dell’attività, struttura o ente coinvolto per un periodo minimo di 1 giorno e massimo di 7 giorni.  &#x20;_(La misura della chiusura temporanea potrà essere eseguita esclusivamente previa autorizzazione delle competenti autorità di Washington.)_
 
